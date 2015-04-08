@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Concession stand</title>
+	<atom:link href="http://shiftingpixel.com/2005/09/27/concession-stand/feed/" rel="self" type="application/rss+xml" />
+	<link>http://shiftingpixel.com/2005/09/27/concession-stand/</link>
+	<description>Best damn photos in the world</description>
+	<lastBuildDate>Fri, 10 Aug 2012 13:46:57 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.3</generator>
+	<item>
+		<title>By: Joe Lencioni</title>
+		<link>http://shiftingpixel.com/2005/09/27/concession-stand/comment-page-1/#comment-167</link>
+		<dc:creator>Joe Lencioni</dc:creator>
+		<pubDate>Wed, 28 Sep 2005 03:40:50 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/?p=117#comment-167</guid>
+		<description>Bryan, thanks so much for comment.</description>
+		<content:encoded><![CDATA[<p>Bryan, thanks so much for comment.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Bryan</title>
+		<link>http://shiftingpixel.com/2005/09/27/concession-stand/comment-page-1/#comment-166</link>
+		<dc:creator>Bryan</dc:creator>
+		<pubDate>Wed, 28 Sep 2005 01:04:53 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/?p=117#comment-166</guid>
+		<description>I like the grain and the grittiness of this picture.  I&#039;ve always wanted to use a Holga, but I&#039;ve never gotten around to it.  With digital my Lomo doesn&#039;t get used much.  And a Dirkon that I made this summer hasn&#039;t even had a roll run through it yet.</description>
+		<content:encoded><![CDATA[<p>I like the grain and the grittiness of this picture.  I&#8217;ve always wanted to use a Holga, but I&#8217;ve never gotten around to it.  With digital my Lomo doesn&#8217;t get used much.  And a Dirkon that I made this summer hasn&#8217;t even had a roll run through it yet.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Silk banners</title>
+	<atom:link href="http://shiftingpixel.com/2006/01/11/silk-banners/feed/" rel="self" type="application/rss+xml" />
+	<link>http://shiftingpixel.com/2006/01/11/silk-banners/</link>
+	<description>Best damn photos in the world</description>
+	<lastBuildDate>Fri, 10 Aug 2012 13:46:57 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.3</generator>
+	<item>
+		<title>By: Phil</title>
+		<link>http://shiftingpixel.com/2006/01/11/silk-banners/comment-page-1/#comment-435</link>
+		<dc:creator>Phil</dc:creator>
+		<pubDate>Mon, 16 Jan 2006 02:41:07 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/?p=307#comment-435</guid>
+		<description>Whatever it is, I like the look of it. The blue silk lit up looks good.</description>
+		<content:encoded><![CDATA[<p>Whatever it is, I like the look of it. The blue silk lit up looks good.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Joseph Skadsberg</title>
+		<link>http://shiftingpixel.com/2006/01/11/silk-banners/comment-page-1/#comment-434</link>
+		<dc:creator>Joseph Skadsberg</dc:creator>
+		<pubDate>Thu, 12 Jan 2006 03:03:36 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/?p=307#comment-434</guid>
+		<description>this place that you have been taking pictures in is amazing. props.</description>
+		<content:encoded><![CDATA[<p>this place that you have been taking pictures in is amazing. props.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

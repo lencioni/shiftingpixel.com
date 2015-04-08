@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Chinese Checkers</title>
+	<atom:link href="http://shiftingpixel.com/2006/08/27/chinese-checkers/feed/" rel="self" type="application/rss+xml" />
+	<link>http://shiftingpixel.com/2006/08/27/chinese-checkers/</link>
+	<description>Best damn photos in the world</description>
+	<lastBuildDate>Fri, 10 Aug 2012 13:46:57 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.3</generator>
+	<item>
+		<title>By: donnis</title>
+		<link>http://shiftingpixel.com/2006/08/27/chinese-checkers/comment-page-1/#comment-729</link>
+		<dc:creator>donnis</dc:creator>
+		<pubDate>Tue, 24 Oct 2006 13:18:20 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/08/27/chinese-checkers/#comment-729</guid>
+		<description>Brings wonderful memories back of my childhood.</description>
+		<content:encoded><![CDATA[<p>Brings wonderful memories back of my childhood.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: chantal</title>
+		<link>http://shiftingpixel.com/2006/08/27/chinese-checkers/comment-page-1/#comment-728</link>
+		<dc:creator>chantal</dc:creator>
+		<pubDate>Mon, 04 Sep 2006 14:12:32 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/08/27/chinese-checkers/#comment-728</guid>
+		<description>great shot!!  very nostalgic...I used to play chinese checkers all the time at my grandmothers house when I was a kid</description>
+		<content:encoded><![CDATA[<p>great shot!!  very nostalgic&#8230;I used to play chinese checkers all the time at my grandmothers house when I was a kid</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: art building walls</title>
+	<atom:link href="http://shiftingpixel.com/2005/10/17/art-building-walls/feed/" rel="self" type="application/rss+xml" />
+	<link>http://shiftingpixel.com/2005/10/17/art-building-walls/</link>
+	<description>Best damn photos in the world</description>
+	<lastBuildDate>Fri, 10 Aug 2012 13:46:57 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.3</generator>
+	<item>
+		<title>By: Beth</title>
+		<link>http://shiftingpixel.com/2005/10/17/art-building-walls/comment-page-1/#comment-196</link>
+		<dc:creator>Beth</dc:creator>
+		<pubDate>Tue, 18 Oct 2005 00:46:58 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/?p=157#comment-196</guid>
+		<description>Did you catch a UFO on the left there? Cool!
+
+Good composition, too.</description>
+		<content:encoded><![CDATA[<p>Did you catch a UFO on the left there? Cool!</p>
+<p>Good composition, too.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

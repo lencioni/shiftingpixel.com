@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Unjustify</title>
+	<atom:link href="http://shiftingpixel.com/2007/10/01/unjustify/feed/" rel="self" type="application/rss+xml" />
+	<link>http://shiftingpixel.com/2007/10/01/unjustify/</link>
+	<description>Best damn photos in the world</description>
+	<lastBuildDate>Fri, 10 Aug 2012 13:46:57 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.3</generator>
+	<item>
+		<title>By: Unjust(ified) // VOID-STAR.NET β</title>
+		<link>http://shiftingpixel.com/2007/10/01/unjustify/comment-page-1/#comment-1837</link>
+		<dc:creator>Unjust(ified) // VOID-STAR.NET β</dc:creator>
+		<pubDate>Tue, 21 Jul 2009 01:28:56 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2007/10/01/unjustify/#comment-1837</guid>
+		<description>[...] Okay, so going on from what we were talking about yesterday (and what Jem is talking about today) I present to you all: the Unjustify Bookmarklet. [...]</description>
+		<content:encoded><![CDATA[<p>[...] Okay, so going on from what we were talking about yesterday (and what Jem is talking about today) I present to you all: the Unjustify Bookmarklet. [...]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Three Years — Shifting Pixel</title>
+		<link>http://shiftingpixel.com/2007/10/01/unjustify/comment-page-1/#comment-1133</link>
+		<dc:creator>Three Years — Shifting Pixel</dc:creator>
+		<pubDate>Thu, 31 Jul 2008 03:36:37 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2007/10/01/unjustify/#comment-1133</guid>
+		<description>[...] 1, 2007 &#8212; I got fed up with fully-justified text on the web and wrote Unjustify, a bookmarklet to zap it to oblivion. And, I still use it all the [...]</description>
+		<content:encoded><![CDATA[<p>[...] 1, 2007 &mdash; I got fed up with fully-justified text on the web and wrote Unjustify, a bookmarklet to zap it to oblivion. And, I still use it all the [...]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Joe Lencioni</title>
+		<link>http://shiftingpixel.com/2007/10/01/unjustify/comment-page-1/#comment-1132</link>
+		<dc:creator>Joe Lencioni</dc:creator>
+		<pubDate>Thu, 15 May 2008 12:07:39 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2007/10/01/unjustify/#comment-1132</guid>
+		<description>@Seb: I don&#039;t have anything that will do that. However, if it is one or two websites in particular that you&#039;d like to change and you happen to be using Firefox, you can &lt;a href=&quot;http://userstyles.org/stylish/&quot; rel=&quot;nofollow&quot;&gt;use the Stylish extension&lt;/a&gt; to make your own adjustments. Good luck!</description>
+		<content:encoded><![CDATA[<p>@Seb: I don&#8217;t have anything that will do that. However, if it is one or two websites in particular that you&#8217;d like to change and you happen to be using Firefox, you can <a href="http://userstyles.org/stylish/" rel="nofollow">use the Stylish extension</a> to make your own adjustments. Good luck!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Seb</title>
+		<link>http://shiftingpixel.com/2007/10/01/unjustify/comment-page-1/#comment-1134</link>
+		<dc:creator>Seb</dc:creator>
+		<pubDate>Thu, 15 May 2008 08:53:17 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2007/10/01/unjustify/#comment-1134</guid>
+		<description>Do you have a tool to make enourmous red text and headings smaller on other peoples websites?</description>
+		<content:encoded><![CDATA[<p>Do you have a tool to make enourmous red text and headings smaller on other peoples websites?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: UnJUSTIFY text on other peoples websites &#187; Binary Moon &#187; The home of Ben Gillbanks</title>
+		<link>http://shiftingpixel.com/2007/10/01/unjustify/comment-page-1/#comment-1131</link>
+		<dc:creator>UnJUSTIFY text on other peoples websites &#187; Binary Moon &#187; The home of Ben Gillbanks</dc:creator>
+		<pubDate>Thu, 04 Oct 2007 11:52:03 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2007/10/01/unjustify/#comment-1131</guid>
+		<description>[...] be IMO) would be so handy&#8230; and now Joe Lencioni has come up with a simple bookmarklet, name Unjustify, that does just [...]</description>
+		<content:encoded><![CDATA[<p>[...] be IMO) would be so handy&#8230; and now Joe Lencioni has come up with a simple bookmarklet, name Unjustify, that does just [...]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

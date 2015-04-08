@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Waterfalls</title>
+	<atom:link href="http://shiftingpixel.com/2006/07/09/waterfalls/feed/" rel="self" type="application/rss+xml" />
+	<link>http://shiftingpixel.com/2006/07/09/waterfalls/</link>
+	<description>Best damn photos in the world</description>
+	<lastBuildDate>Fri, 10 Aug 2012 13:46:57 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.3</generator>
+	<item>
+		<title>By: Robbie G</title>
+		<link>http://shiftingpixel.com/2006/07/09/waterfalls/comment-page-1/#comment-644</link>
+		<dc:creator>Robbie G</dc:creator>
+		<pubDate>Mon, 24 Jul 2006 04:17:57 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/07/09/waterfalls/#comment-644</guid>
+		<description>My favorite part is the top where you can see the waves in the water at the bottom of the waterfall.  I think it&#039;s the texture of it.</description>
+		<content:encoded><![CDATA[<p>My favorite part is the top where you can see the waves in the water at the bottom of the waterfall.  I think it&#8217;s the texture of it.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Joe Lencioni</title>
+		<link>http://shiftingpixel.com/2006/07/09/waterfalls/comment-page-1/#comment-643</link>
+		<dc:creator>Joe Lencioni</dc:creator>
+		<pubDate>Tue, 11 Jul 2006 12:19:56 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/07/09/waterfalls/#comment-643</guid>
+		<description>Thanks Beth. :)</description>
+		<content:encoded><![CDATA[<p>Thanks Beth. <img src='http://shiftingpixel.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Beth</title>
+		<link>http://shiftingpixel.com/2006/07/09/waterfalls/comment-page-1/#comment-642</link>
+		<dc:creator>Beth</dc:creator>
+		<pubDate>Mon, 10 Jul 2006 23:51:27 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/07/09/waterfalls/#comment-642</guid>
+		<description>Cool picture! You never see a waterfall from this point of view, but it&#039;s almost more breath taking this way. Nice.</description>
+		<content:encoded><![CDATA[<p>Cool picture! You never see a waterfall from this point of view, but it&#8217;s almost more breath taking this way. Nice.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

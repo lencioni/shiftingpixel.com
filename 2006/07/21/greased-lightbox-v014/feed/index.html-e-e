@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Greased Lightbox v0.14</title>
+	<atom:link href="http://shiftingpixel.com/2006/07/21/greased-lightbox-v014/feed/" rel="self" type="application/rss+xml" />
+	<link>http://shiftingpixel.com/2006/07/21/greased-lightbox-v014/</link>
+	<description>Best damn photos in the world</description>
+	<lastBuildDate>Fri, 10 Aug 2012 13:46:57 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.3</generator>
+	<item>
+		<title>By: grasshipper</title>
+		<link>http://shiftingpixel.com/2006/07/21/greased-lightbox-v014/comment-page-1/#comment-689</link>
+		<dc:creator>grasshipper</dc:creator>
+		<pubDate>Sat, 21 Apr 2007 10:01:31 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/07/21/greased-lightbox-v014/#comment-689</guid>
+		<description>i was wondering, is there an easy way for other gm scripts that generate thumbnails on pages to include the lightbox functionality from the greased lightbox script, maybe make a global function available via &quot;unsafeWindow&quot; that can be added to the thumbnails somehow</description>
+		<content:encoded><![CDATA[<p>i was wondering, is there an easy way for other gm scripts that generate thumbnails on pages to include the lightbox functionality from the greased lightbox script, maybe make a global function available via &#8220;unsafeWindow&#8221; that can be added to the thumbnails somehow</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Joe Lencioni</title>
+		<link>http://shiftingpixel.com/2006/07/21/greased-lightbox-v014/comment-page-1/#comment-685</link>
+		<dc:creator>Joe Lencioni</dc:creator>
+		<pubDate>Thu, 01 Mar 2007 20:09:40 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/07/21/greased-lightbox-v014/#comment-685</guid>
+		<description>@ Peter - thanks for all of the suggestions. I&#039;ll look into these things.</description>
+		<content:encoded><![CDATA[<p>@ Peter &#8211; thanks for all of the suggestions. I&#8217;ll look into these things.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Peter</title>
+		<link>http://shiftingpixel.com/2006/07/21/greased-lightbox-v014/comment-page-1/#comment-688</link>
+		<dc:creator>Peter</dc:creator>
+		<pubDate>Thu, 01 Mar 2007 19:56:14 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/07/21/greased-lightbox-v014/#comment-688</guid>
+		<description>last thing, sorry. a button to zoom to original size and an indication that image is not fully zoomed is very important.</description>
+		<content:encoded><![CDATA[<p>last thing, sorry. a button to zoom to original size and an indication that image is not fully zoomed is very important.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Peter</title>
+		<link>http://shiftingpixel.com/2006/07/21/greased-lightbox-v014/comment-page-1/#comment-687</link>
+		<dc:creator>Peter</dc:creator>
+		<pubDate>Thu, 01 Mar 2007 19:52:53 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/07/21/greased-lightbox-v014/#comment-687</guid>
+		<description>Also, there should be a link to view the image without the lightbox interface. Perhaps you should link the text beneath the image (and force a default) to the original image location.</description>
+		<content:encoded><![CDATA[<p>Also, there should be a link to view the image without the lightbox interface. Perhaps you should link the text beneath the image (and force a default) to the original image location.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Peter</title>
+		<link>http://shiftingpixel.com/2006/07/21/greased-lightbox-v014/comment-page-1/#comment-686</link>
+		<dc:creator>Peter</dc:creator>
+		<pubDate>Thu, 01 Mar 2007 18:52:10 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/07/21/greased-lightbox-v014/#comment-686</guid>
+		<description>really really great script. fantastic job.
+
+one thing-- it clobbers lots of other scripts. how can this be dealt with? i&#039;m not sure when greasemonkey runs in the order of things, but if it is given a lower priority, you could just ignore images that already had javascript assignments attached to them? it would be nice if there was atleast the option to be more passive.</description>
+		<content:encoded><![CDATA[<p>really really great script. fantastic job.</p>
+<p>one thing&#8211; it clobbers lots of other scripts. how can this be dealt with? i&#8217;m not sure when greasemonkey runs in the order of things, but if it is given a lower priority, you could just ignore images that already had javascript assignments attached to them? it would be nice if there was atleast the option to be more passive.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Joe Lencioni</title>
+		<link>http://shiftingpixel.com/2006/07/21/greased-lightbox-v014/comment-page-1/#comment-684</link>
+		<dc:creator>Joe Lencioni</dc:creator>
+		<pubDate>Fri, 10 Nov 2006 04:42:32 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/07/21/greased-lightbox-v014/#comment-684</guid>
+		<description>thanks paul!</description>
+		<content:encoded><![CDATA[<p>thanks paul!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: paul irish</title>
+		<link>http://shiftingpixel.com/2006/07/21/greased-lightbox-v014/comment-page-1/#comment-683</link>
+		<dc:creator>paul irish</dc:creator>
+		<pubDate>Fri, 10 Nov 2006 04:39:46 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/07/21/greased-lightbox-v014/#comment-683</guid>
+		<description>probably the best greasemonkey script ever.
+yeah.. yeah i think so.
+
+cheers.</description>
+		<content:encoded><![CDATA[<p>probably the best greasemonkey script ever.<br />
+yeah.. yeah i think so.</p>
+<p>cheers.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Stoen</title>
+		<link>http://shiftingpixel.com/2006/07/21/greased-lightbox-v014/comment-page-1/#comment-682</link>
+		<dc:creator>Stoen</dc:creator>
+		<pubDate>Sat, 29 Jul 2006 02:05:45 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/07/21/greased-lightbox-v014/#comment-682</guid>
+		<description>The lines of code where you insert elements into the page are bugged
+For instance line 848:
+objBody.insertBefore(objMenu, objBody.nextSibling);
+There would be no problem when BODY is the last child of HTML and so objBody.nextSibling is null and your insertBefore statement just behaves like appendChild. But what happens when objBody.nextSibling is not null? You are trying to insert elements into BODY at a position in the DOM that exists outside of BODY</description>
+		<content:encoded><![CDATA[<p>The lines of code where you insert elements into the page are bugged<br />
+For instance line 848:<br />
+objBody.insertBefore(objMenu, objBody.nextSibling);<br />
+There would be no problem when BODY is the last child of HTML and so objBody.nextSibling is null and your insertBefore statement just behaves like appendChild. But what happens when objBody.nextSibling is not null? You are trying to insert elements into BODY at a position in the DOM that exists outside of BODY</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: eXtreme</title>
+		<link>http://shiftingpixel.com/2006/07/21/greased-lightbox-v014/comment-page-1/#comment-681</link>
+		<dc:creator>eXtreme</dc:creator>
+		<pubDate>Wed, 26 Jul 2006 16:05:25 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/07/21/greased-lightbox-v014/#comment-681</guid>
+		<description>OK I have also an bug with GS in Opera (9).
+
+Watch this video: http://video.google.com/videoplay?docid=-5088756032932447070 (choose &quot;Original size&quot; in player - image has been scaled down by google :/)
+Sometimes Greased Lightbox loads image but later it can&#039;t do this.
+
+Cache in my Opera is totally disabled - maybe this is the cause of the bug. I had enabled cache but... it hasn&#039;t seem to be working. :P
+
+PS. Sorry for mistakes, my english isn&#039;t good. ;)</description>
+		<content:encoded><![CDATA[<p>OK I have also an bug with GS in Opera (9).</p>
+<p>Watch this video: <a href="http://video.google.com/videoplay?docid=-5088756032932447070" rel="nofollow">http://video.google.com/videoplay?docid=-5088756032932447070</a> (choose &#8220;Original size&#8221; in player &#8211; image has been scaled down by google :/)<br />
+Sometimes Greased Lightbox loads image but later it can&#8217;t do this.</p>
+<p>Cache in my Opera is totally disabled &#8211; maybe this is the cause of the bug. I had enabled cache but&#8230; it hasn&#8217;t seem to be working. <img src='http://shiftingpixel.com/wp-includes/images/smilies/icon_razz.gif' alt=':P' class='wp-smiley' /> </p>
+<p>PS. Sorry for mistakes, my english isn&#8217;t good. <img src='http://shiftingpixel.com/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Joe Lencioni</title>
+		<link>http://shiftingpixel.com/2006/07/21/greased-lightbox-v014/comment-page-1/#comment-680</link>
+		<dc:creator>Joe Lencioni</dc:creator>
+		<pubDate>Wed, 26 Jul 2006 15:21:01 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/07/21/greased-lightbox-v014/#comment-680</guid>
+		<description>Thanks guys for your feedback.
+
+@eXtreme: I will incorporate this into the next version. Thanks!</description>
+		<content:encoded><![CDATA[<p>Thanks guys for your feedback.</p>
+<p>@eXtreme: I will incorporate this into the next version. Thanks!</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

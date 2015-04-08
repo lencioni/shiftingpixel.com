@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: New design, now WordPress</title>
+	<atom:link href="http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/feed/" rel="self" type="application/rss+xml" />
+	<link>http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/</link>
+	<description>Best damn photos in the world</description>
+	<lastBuildDate>Fri, 10 Aug 2012 13:46:57 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.3</generator>
+	<item>
+		<title>By: Andrew Rodgers</title>
+		<link>http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/comment-page-1/#comment-1981</link>
+		<dc:creator>Andrew Rodgers</dc:creator>
+		<pubDate>Sun, 06 Dec 2009 03:33:27 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/#comment-1981</guid>
+		<description>Hey Joe, 
+I took the liberty to enhance your script a little, and do a little debugging on newer versions of WP and PP, I hope you don&#039;t mind, I gave you credit for the original script. I appreciate the work you did! You can view the post here: http://blog.perfectedperspectives.com/2009/pixelpost-to-wordpress-migration/
+
+Thanks,
+Andrew Rodgers
+http://perfectedperspectives.com &#124; http://twitter.com/acedrew &#124; http://fb.perfectedperspectives.com</description>
+		<content:encoded><![CDATA[<p>Hey Joe,<br />
+I took the liberty to enhance your script a little, and do a little debugging on newer versions of WP and PP, I hope you don&#8217;t mind, I gave you credit for the original script. I appreciate the work you did! You can view the post here: <a href="http://blog.perfectedperspectives.com/2009/pixelpost-to-wordpress-migration/" rel="nofollow">http://blog.perfectedperspectives.com/2009/pixelpost-to-wordpress-migration/</a></p>
+<p>Thanks,<br />
+Andrew Rodgers<br />
+<a href="http://perfectedperspectives.com" rel="nofollow">http://perfectedperspectives.com</a> | <a href="http://twitter.com/acedrew" rel="nofollow">http://twitter.com/acedrew</a> | <a href="http://fb.perfectedperspectives.com" rel="nofollow">http://fb.perfectedperspectives.com</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Prashanth Randadath Nair</title>
+		<link>http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/comment-page-1/#comment-1938</link>
+		<dc:creator>Prashanth Randadath Nair</dc:creator>
+		<pubDate>Wed, 21 Oct 2009 11:29:56 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/#comment-1938</guid>
+		<description>I am using Pixelpost version: 1.7.1  for my blog now. I want to migrate to the latest version of Wordpress and use wordpress as a photoblog. 
+I can pay you  of any of the friends here can do it for me. Please contact me at dotcompals (at) gmail.com or add me to MSN : dotcompals (at) msn.com / Yahoo: dotcompals (at) yahoo.com</description>
+		<content:encoded><![CDATA[<p>I am using Pixelpost version: 1.7.1  for my blog now. I want to migrate to the latest version of WordPress and use wordpress as a photoblog.<br />
+I can pay you  of any of the friends here can do it for me. Please contact me at dotcompals (at) gmail.com or add me to MSN : dotcompals (at) msn.com / Yahoo: dotcompals (at) yahoo.com</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Christine</title>
+		<link>http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/comment-page-1/#comment-1846</link>
+		<dc:creator>Christine</dc:creator>
+		<pubDate>Thu, 23 Jul 2009 21:03:02 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/#comment-1846</guid>
+		<description>Well, the script works after all!  
+
+I was ready to handcode the comments into the database when I decided to delete the database and start fresh. After I deleted the database, created it again, and installed Wordpress, I re-imported the Pixelpost using the script and for some odd reason, it worked this time!  The comments and everything. Was it because I started with a fresh clean installed Wordpress?
+
+Again, the while it imported the categories, it didn&#039;t keep the post assignment to them. A minor thing compared to the daunting task of trying hand import the comments directly into the database itself! 
+
+YAY!</description>
+		<content:encoded><![CDATA[<p>Well, the script works after all!  </p>
+<p>I was ready to handcode the comments into the database when I decided to delete the database and start fresh. After I deleted the database, created it again, and installed WordPress, I re-imported the Pixelpost using the script and for some odd reason, it worked this time!  The comments and everything. Was it because I started with a fresh clean installed WordPress?</p>
+<p>Again, the while it imported the categories, it didn&#8217;t keep the post assignment to them. A minor thing compared to the daunting task of trying hand import the comments directly into the database itself! </p>
+<p>YAY!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Christine</title>
+		<link>http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/comment-page-1/#comment-1842</link>
+		<dc:creator>Christine</dc:creator>
+		<pubDate>Thu, 23 Jul 2009 00:29:55 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/#comment-1842</guid>
+		<description>Quick update... importing the pictures DID work.  I didn&#039;t realize I had to actually update load the images themselves to the server in addition to running the script.  (DOH!)
+
+Still no comments, though.  Can anyone help me import the comments, too?
+
+Thanks!</description>
+		<content:encoded><![CDATA[<p>Quick update&#8230; importing the pictures DID work.  I didn&#8217;t realize I had to actually update load the images themselves to the server in addition to running the script.  (DOH!)</p>
+<p>Still no comments, though.  Can anyone help me import the comments, too?</p>
+<p>Thanks!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Christine</title>
+		<link>http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/comment-page-1/#comment-1841</link>
+		<dc:creator>Christine</dc:creator>
+		<pubDate>Thu, 23 Jul 2009 00:15:10 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/#comment-1841</guid>
+		<description>Hi!
+Wanted to add my support for anyone who could upgrade this script!  I tried importing from PixelPost 1.7.1 to Wordpress 2.8.2 this evening.
+
+The script sorta works now... I can import the posts themselves but no comments.  And even with Krista&#039;s added coded, I can not get any images to attach or import into the blog.  
+
+I would really love to use Wordpress because for what I want to do, it would better suit my needs but I don&#039;t want to lose all of my comments or have to manually add all of my photos.</description>
+		<content:encoded><![CDATA[<p>Hi!<br />
+Wanted to add my support for anyone who could upgrade this script!  I tried importing from PixelPost 1.7.1 to WordPress 2.8.2 this evening.</p>
+<p>The script sorta works now&#8230; I can import the posts themselves but no comments.  And even with Krista&#8217;s added coded, I can not get any images to attach or import into the blog.  </p>
+<p>I would really love to use WordPress because for what I want to do, it would better suit my needs but I don&#8217;t want to lose all of my comments or have to manually add all of my photos.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Nate</title>
+		<link>http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/comment-page-1/#comment-1818</link>
+		<dc:creator>Nate</dc:creator>
+		<pubDate>Sat, 04 Jul 2009 04:01:39 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/#comment-1818</guid>
+		<description>How did you guys get it to work with Pixelpost 1.7? I can&#039;t get the pixelpost2.php importer to initialize and I get the same error as San. I&#039;ve been trying for 2 years to make a transition from Pixelpost to Wordpress. Once I find a way out of this trap I am sticking with wordpress permanently. Help, Please!? :) Thanks. I may even be willing to fork over some funds for the help!</description>
+		<content:encoded><![CDATA[<p>How did you guys get it to work with Pixelpost 1.7? I can&#8217;t get the pixelpost2.php importer to initialize and I get the same error as San. I&#8217;ve been trying for 2 years to make a transition from Pixelpost to WordPress. Once I find a way out of this trap I am sticking with wordpress permanently. Help, Please!? <img src='http://shiftingpixel.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />  Thanks. I may even be willing to fork over some funds for the help!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: blaine kendall</title>
+		<link>http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/comment-page-1/#comment-1736</link>
+		<dc:creator>blaine kendall</dc:creator>
+		<pubDate>Thu, 23 Apr 2009 14:28:56 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/#comment-1736</guid>
+		<description>Thanks for the script. It worked great from PixelPost 1.7 to Wordpress 2.7.1. I followed Kristarella&#039;s tip and added the image src in 2 spots in the script. thanks for this...you&#039;ve saved me a ton of SQL scripting.</description>
+		<content:encoded><![CDATA[<p>Thanks for the script. It worked great from PixelPost 1.7 to WordPress 2.7.1. I followed Kristarella&#8217;s tip and added the image src in 2 spots in the script. thanks for this&#8230;you&#8217;ve saved me a ton of SQL scripting.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: San</title>
+		<link>http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/comment-page-1/#comment-1712</link>
+		<dc:creator>San</dc:creator>
+		<pubDate>Sat, 11 Apr 2009 03:04:52 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/#comment-1712</guid>
+		<description>Hi
+
+Thanks for the script.  I am trying to move from pixelpost 1.6.1 to WP 2.7.1 and WP fails with &quot;Cannot load importer.&quot; error.  
+
+Can you please point me to where I can start looking to fix this?</description>
+		<content:encoded><![CDATA[<p>Hi</p>
+<p>Thanks for the script.  I am trying to move from pixelpost 1.6.1 to WP 2.7.1 and WP fails with &#8220;Cannot load importer.&#8221; error.  </p>
+<p>Can you please point me to where I can start looking to fix this?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Moving from PixelPost to WordPress &#124; Gulf Coast Texas Blog</title>
+		<link>http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/comment-page-1/#comment-580</link>
+		<dc:creator>Moving from PixelPost to WordPress &#124; Gulf Coast Texas Blog</dc:creator>
+		<pubDate>Sun, 25 Jan 2009 17:40:50 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/#comment-580</guid>
+		<description>[...] along with the database, I took a harder look around and found an old utility from May of 2006 at Shifting Pixel. A commenter there reports as late as November of 2008 that she tried it and that it worked great [...]</description>
+		<content:encoded><![CDATA[<p>[...] along with the database, I took a harder look around and found an old utility from May of 2006 at Shifting Pixel. A commenter there reports as late as November of 2008 that she tried it and that it worked great [...]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: This week in kristarella — kristarella.com</title>
+		<link>http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/comment-page-1/#comment-579</link>
+		<dc:creator>This week in kristarella — kristarella.com</dc:creator>
+		<pubDate>Tue, 09 Dec 2008 00:14:55 +0000</pubDate>
+		<guid isPermaLink="false">http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/#comment-579</guid>
+		<description>[...] to importing my photoblog from PixelPost to WordPress, the photos from before the import don&#8217;t have all of the metadata (in the database). [...]</description>
+		<content:encoded><![CDATA[<p>[...] to importing my photoblog from PixelPost to WordPress, the photos from before the import don&#8217;t have all of the metadata (in the database). [...]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
