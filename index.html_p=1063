@@ -1,0 +1,705 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="microid" content="mailto+http:sha1:6faf383e2bd5834b9143add400ece28347ba1be9" />
+
+<title>Greased Lightbox v0.18 - Shifting Pixel</title>
+
+<meta name="generator" content="WordPress 3.3" /> <!-- leave this for stats -->
+
+<link rel="stylesheet" href="wp-content/themes/shifting2/style.css" type="text/css" media="screen" />
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" href="http://shiftingpixel.com/wp-content/themes/shifting2/style-IE6.css" media="screen" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="http://shiftingpixel.com/wp-content/themes/shifting2/style-IE7.css" media="screen" />
+<![endif]-->
+
+<link rel="favicon" href="favicon.ico" />
+<link rel="shortcut icon" href="favicon.ico" />
+
+<link rel="alternate" type="application/rss+xml" title="Shifting Pixel &raquo; Greased Lightbox v0.18 Comments Feed" href="2009/02/08/greased-lightbox-v018/feed/index.html" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://shiftingpixel.com/wp-includes/wlwmanifest.xml" />
+<link rel='prev' title='Wisps' href='index.html_p=1049' />
+<link rel='next' title='Rainbow' href='index.html_p=1122' />
+<meta name="generator" content="WordPress 3.3" />
+<link rel='canonical' href='index.html_p=1063' />
+<link rel='shortlink' href='index.html_p=1063' />
+
+<script type="text/javascript" src="wp-content/themes/shifting2/scripts.js"></script>
+</head>
+<body class="post1063">
+<!-- ukey="6933AB70" -->
+
+
+<div id="headerWrapper">
+<div id="header">
+	<p id="logo"><a href="index.html" title="Return to the homepage">Shifting Pixel</a></p>
+
+    <!--<p id="associationWith"><a href="http://9rules.com" title="A proud member of the 9rules Network">In association with 9rules Network</a></p>-->
+
+	<div id="navigation">
+		<ul>
+			<li id="archives"><a href="archives/index.html">Archives</a></li>
+			<li id="about"><a href="about/index.html">About</a></li>
+			<li id="downloads"><a href="download/index.html">Downloads</a></li>
+		</ul>
+	</div>
+
+	<form name="cse" id="searchForm" action="https://www.google.com/search">
+  <div>
+  <input type="hidden" name="sitesearch" value="shiftingpixel.com" />
+  <input name="q" type="text" id="searchTerms" />
+  <input type="submit" id="searchSubmit" value="Search" />
+  </div>
+</form>
+
+	<!--[if lt IE 7]>
+	<div id="upgradeYourBrowser">
+		<h1><strong>Please</strong> upgrade your browser.</h1>
+		<p><strong>Everything</strong> will be better if you use <a href="http://www.spreadfirefox.com/?q=affiliates&amp;id=38695">Firefox</a>, <a href="http://opera.com">Opera</a>, or <a href="http://www.google.com/chrome">Google Chrome</a>. They are <strong>entirely free</strong> and it only takes a minute to download and install.</p>
+	</div>
+	<![endif]-->
+
+	<div class="clearer"></div>
+</div>
+</div>
+
+<hr />
+
+<div id="browsingNavigation">
+<div id="previousPost">
+<a href="index.html_p=1049"><span class="photo"><img src="slir/w86-h86-c1:1/wp-content/uploads/2008/10/wisps.jpg" alt="wisps" title="wisps" width="86" height="86" /></span> Wisps</a></div>
+
+<div id="nextPost">
+<a href="index.html_p=1122"><span class="photo"><img src="slir/w86-h86-c1:1/wp-content/uploads/2009/03/rainbow.jpg" alt="Rainbow" title="Rainbow" width="86" height="86" /></span> Rainbow</a></div>
+</div>
+<div class="clearer"></div>
+<div id="content" class="hfeed">
+  <div id="pageContent">
+        <div class="post" id="post-1063">
+      <div class="postTop">
+        <h1 class="postTitle"><a href="index.html_p=1063" rel="bookmark" class="entry-title">
+          Greased Lightbox v0.18          </a><span class="noscreen author vcard"> by <cite><a class="url fn" href="http://joelencioni.com">
+          Joe Lencioni          </a></cite></span></h1>
+        <abbr class="postMeta published updated" title="2009-02-08T16:28:58Z"> <span class="postDate">
+        February 8, 2009        </span> </abbr> by <a href="http://joelencioni.com" title="Visit Joe Lencioni&#8217;s website" rel="external author">Joe Lencioni</a> </div>            <div class="clearer"></div>
+      <div class="metaGutter">
+        				<div class="related_posts"><h4>Similar posts</h4><ul
+class="related_post"><li><a href="index.html_p=908" rel="bookmark" title="April 27, 2008">Greased Lightbox v0.17</a></li>
+
+<li><a href="index.html_p=446" rel="bookmark" title="July 21, 2006">Greased Lightbox v0.14</a></li>
+
+<li><a href="index.html_p=786" rel="bookmark" title="August 26, 2007">Greased Lightbox v0.15</a></li>
+
+<li><a href="index.html_p=853" rel="bookmark" title="February 4, 2008">Greased Lightbox v0.16</a></li>
+</ul></div><!-- Similar Posts took 21.122 ms -->
+
+              </div>
+      <div class="postBody entry-content">
+        <script type="text/javascript"><!--
+google_ad_client = "pub-1559564011388652";
+/* 468x60, created 4/30/08 */
+google_ad_slot = "7494546370";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+        <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+        <p class="leadin">Go get <a href="lightbox.1">Greased Lightbox</a> v0.18.</p>
+<p>Make sure to uninstall any old versions.</p>
+<h3>Change log</h3>
+<ul>
+<li>Updated Wikipedia regular expressions</li>
+<li>Improved Image Socket support</li>
+<li>Removed Facebook support</li>
+<li>Improved ImageFap support</li>
+<li>Fixed bug involving race conditions</li>
+</ul>
+<h3>Spread the word</h3>
+<p>If you have a blog or a website and enjoy using Greased Lightbox, please help spread the word about this great little script by linking to it, perhaps with a little review.</p>
+<h3>Stay up to date</h3>
+<p>To stay up to date on the latest developments, make sure to <a class="rss" href="subscribe.1">subscribe</a>.</p>
+              </div>
+      <div class="clearer"></div>
+            <div class="clearer"></div>
+    </div>
+
+    <!--
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://shiftingpixel.com/2009/02/08/greased-lightbox-v018/"
+    dc:identifier="http://shiftingpixel.com/2009/02/08/greased-lightbox-v018/"
+    dc:title="Greased Lightbox v0.18"
+    trackback:ping="http://shiftingpixel.com/2009/02/08/greased-lightbox-v018/trackback/" />
+</rdf:RDF>    -->
+
+      </div>
+</div>
+<hr />
+
+<div id="commentsWrapper" class="hfeed">
+<div id="comments">
+
+<h2 id="commentsTitle"><a name="comments">24 Comments</a></h2>
+
+<div class="metaGutter">&nbsp;</div>
+ <div class="postBody navigation">
+
+ </div>
+
+ <ol class="commentList clearfix">
+  	<li class="hentry clearfix" id="comment-1557">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/8dfe0169f2859e57a694200e5e44ca44?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">dapxin</cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-1557" rel="bookmark" title=""><abbr class="published updated" title="2009-02-09T02:46:21Z">February 9th, 2009 at 2:46 am</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>why remove facebook support ?</p>
+<p>good stuff tho but I dont think I &#8216;ll upgrade yet.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1558">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/2864beebf21db1c1e81cb9044febfa53?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='index.html' rel='external nofollow' class='url'>Joe Lencioni</a></cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-1558" rel="bookmark" title=""><abbr class="published updated" title="2009-02-09T07:33:54Z">February 9th, 2009 at 7:33 am</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>@dapxin: I removed Facebook support because they have added some pretty decent image viewing features. For instance, if you go to a photo in an album, you can use your arrow keys to quickly scroll through the rest of the album. Since it is all done on their site with AJAX, you not only get the photo, you also get the comments, which is nice. It also allows you to browse a multi-page album this way.</p>
+<p>If, however, you would like to add Facebook support back in, I just commented  it out. You can add it back in by removing line 187 and 196.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1560">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/be4bd873b90fa233d7aa05fab7d6a64a?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">James</cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-1560" rel="bookmark" title=""><abbr class="published updated" title="2009-03-03T17:39:18Z">March 3rd, 2009 at 5:39 pm</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>Great stuff. I have a suggestion:</p>
+<p>Some images, particularly PNGs, often have transparent backgrounds and the actual image is mostly black (e.g. images of molecules on wikipedia). It would be very handy if you could add a little toggler discreetly in the corner to swap the background to white so that it can be seen. Not necessarily of the whole box, just the image&#8217;s BG:</p>
+<p>img {background:#fff}</p>
+					</div>
+	</li>
+			<li class="clearfix">
+			<div class="metaGutter">&nbsp;</div>
+			<div class="postBody">
+			<script type="text/javascript"><!--
+			google_ad_client = "pub-1559564011388652";
+			/* Comments */
+			google_ad_slot = "9268941540";
+			google_ad_width = 468;
+			google_ad_height = 60;
+			//-->
+			</script>
+			<script type="text/javascript"
+			src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+			</script>
+			</div>
+		</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1556">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/2864beebf21db1c1e81cb9044febfa53?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='index.html' rel='external nofollow' class='url'>Joe Lencioni</a></cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-1556" rel="bookmark" title=""><abbr class="published updated" title="2009-03-03T17:46:40Z">March 3rd, 2009 at 5:46 pm</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>@James: That&#8217;s a great point&#8211;I hadn&#8217;t even considered that. I wonder how difficult it would be to actually change the background color on the fly based on the contents of the image. I wonder if that would be too distracting or resource intensive.</p>
+<p>I just read <a href="http://billmill.org/the_histogram.html" rel="nofollow">an article about generating histograms using JavaScript</a>. Perhaps some of that could tie in here.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1555">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/be4bd873b90fa233d7aa05fab7d6a64a?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">James</cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-1555" rel="bookmark" title=""><abbr class="published updated" title="2009-03-03T17:53:04Z">March 3rd, 2009 at 5:53 pm</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>It would be fine for me if, for example, there were a simple little white box (say, 10px square) in the bottom right corner that could just be clicked if a white background is needed. It would then change to black, so that the reverse can be done.</p>
+<p>But, if you want to go the histogram route and do it automatically&#8230; it&#8217;s nice to be able to use . It could be overkill though!</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1561">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/2864beebf21db1c1e81cb9044febfa53?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='index.html' rel='external nofollow' class='url'>Joe Lencioni</a></cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-1561" rel="bookmark" title=""><abbr class="published updated" title="2009-03-03T19:33:35Z">March 3rd, 2009 at 7:33 pm</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>It actually sounds like a fun challenge. If only time weren&#8217;t an issue.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1559">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/f047efdcfd689dfb1e597cf3e2c45fc6?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Collin</cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-1559" rel="bookmark" title=""><abbr class="published updated" title="2009-03-06T18:07:59Z">March 6th, 2009 at 6:07 pm</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>Hi!  So far I&#8217;m really loving Greased Lightbox, but I was wondering if there was a way to disable the semi-tranparent background and just go with a solid black?  I like to visit pages (avatar sites and the like) where there&#8217;s always just so much background noise from the animated gifs and such they prove to be a distraction.</p>
+<p>I glanced through the js but I&#8217;m just not familiar enough with this to find something as straight forward as &#8220;change this to #000 if you want a black background.&#8221;</p>
+<p>Any easy way to geterdun?  <img src='http://shiftingpixel.com/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1653">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/be4bd873b90fa233d7aa05fab7d6a64a?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">James</cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-1653" rel="bookmark" title=""><abbr class="published updated" title="2009-03-30T18:26:17Z">March 30th, 2009 at 6:26 pm</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>To Collin above: replace <code>background-image: ' + pngOverlay + '; background-repeat: repeat;</code> with <code>background:#000;</code></p>
+<p>Joe, there&#8217;s a bug with Wikipedia. Any page that includes Coordinates info in the top right causes it. If you click an image and the lightbox appears, after it is dismissed, there&#8217;s a &#8220;dead&#8221; area in the top right of the page. This is due to an empty DIV being triggered open. It has something to do with displaying a map, which you can see if you click the little globe icon next to &#8220;Coordinates&#8221;. <a href="http://en.wikipedia.org/wiki/Sinuiju" rel="nofollow">Example page</a>. Probably a simple naming conflict (hopefully anyway).</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1702">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/5cc73a6ca891a1a1903032febf0a4644?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Tommy</cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-1702" rel="bookmark" title=""><abbr class="published updated" title="2009-04-08T05:01:04Z">April 8th, 2009 at 5:01 am</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>I would like to see a vBulletin feature <img src='http://shiftingpixel.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p>Regards,<br />
+Tommy.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1705">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/271f43b6d3c85b8a165d21057e306289?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">M482</cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-1705" rel="bookmark" title=""><abbr class="published updated" title="2009-04-09T18:20:00Z">April 9th, 2009 at 6:20 pm</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>please test this with safari 4.  this is the coolest extension but freezes up safari with the spinning rainbow ball. also if you click an image, then exit, then click that same image again before clicking on another one, that image will just show the loading screen and not load.  I found a script on userscripts.org labeled v0.17 that did not have this problem, however it also froze up safari on pages with many google images.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1720">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/606a56397d8627f9a369cc2c4b051821?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Shingyboy</cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-1720" rel="bookmark" title=""><abbr class="published updated" title="2009-04-12T21:48:15Z">April 12th, 2009 at 9:48 pm</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>By any chance can you get this working with autopager?</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1723">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/7a8dfb4f7da4cbd89281c77a9c9a8486?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">cilf</cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-1723" rel="bookmark" title=""><abbr class="published updated" title="2009-04-17T01:50:13Z">April 17th, 2009 at 1:50 am</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>hi, just to let you know:<br />
+if (!window.opera) { // for some reason this pre-fetching breaks lightbox in opera<br />
+I am using opera 9.64 build 10487 and it works fine for me!<br />
+ thx for the amazing script <img src='http://shiftingpixel.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1734">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/82b45ece55b2a6553c59792498191e64?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Adam Baine</cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-1734" rel="bookmark" title=""><abbr class="published updated" title="2009-04-22T22:48:58Z">April 22nd, 2009 at 10:48 pm</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>Hi, wanted to let you know, I&#8217;m using greased lightbox on safari 4 on mac os x. Scrolling with arrow keys doesn&#8217;t work but on the same computer, with firefox, it works perfectly.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1744">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/c206c13fc932ec21d2494d4613d0c101?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Tobias</cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-1744" rel="bookmark" title=""><abbr class="published updated" title="2009-04-30T12:12:47Z">April 30th, 2009 at 12:12 pm</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>still hoping you&#8217;ll implement a keyboard shortcut (perhaps &#8216;V&#8217;) to &#8220;view image in its original context&#8221;, so we don&#8217;t have to move to the mouse to click the link.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1745">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/8dfe0169f2859e57a694200e5e44ca44?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Dapxin</cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-1745" rel="bookmark" title=""><abbr class="published updated" title="2009-04-30T12:49:25Z">April 30th, 2009 at 12:49 pm</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>+1 to the above. That will be very very uuser-friendly.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1756">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/ef760aa59820d25550b6b928f658c6e4?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Zack</cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-1756" rel="bookmark" title=""><abbr class="published updated" title="2009-05-08T20:29:06Z">May 8th, 2009 at 8:29 pm</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>+1 to this. I actually just got done using Instruments (part of Xcode) to track down the reason behind my Safari 4 lockups, and it turned out to be Greased Lightbox &#8211; which sucks, because it was the main reason I bothered to install GreaseKit. Anyway, to give an idea of the magnitude, I&#8217;m seeing 45 second lockups on about 60% of my page loads. On my unibody MacBook Pro. <img src='http://shiftingpixel.com/wp-includes/images/smilies/icon_sad.gif' alt=':(' class='wp-smiley' /> </p>
+<p>Still, thanks for your work on Greased Lightbox.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1770">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/ab011f92f036c16baeb968f7ee63b4b3?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">METHOD</cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-1770" rel="bookmark" title=""><abbr class="published updated" title="2009-05-17T15:28:21Z">May 17th, 2009 at 3:28 pm</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>Are you working on a version that doesn&#8217;t lock up Safari 4 and works with keyboard shortcuts?  There also is a glitch that if you click on an image, then exit and click on that same one again before clicking any other, it will just load forever.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1790">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/565a3a68628c8aa17a49bb8688f08638?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Chocobito</cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-1790" rel="bookmark" title=""><abbr class="published updated" title="2009-06-03T00:14:45Z">June 3rd, 2009 at 12:14 am</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>Very good script that I already use with Opera, now that Bing.com its out, can you add support for Bing image search, pls sorry for my english and keep that good work <img src='http://shiftingpixel.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1929">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/51233f1376a4ff5b563518ee810b7428?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Mike</cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-1929" rel="bookmark" title=""><abbr class="published updated" title="2009-09-29T01:13:42Z">September 29th, 2009 at 1:13 am</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>I installed Greased Lightbox v0.18 and whenever I use Lightbox, I still get the link at the upper left hand corner stating &#8220;Greased Lightbox &#8211; Update available (v0.18)&#8221;</p>
+<p>I followed the instructions on the main page, though it did say uninstall any older versions of Greased Lightbox, but when I open my Add-on&#8217;s there isn&#8217;t a Greased Lightbox version anywhere to be found in my add-on list. Where would I look to remove any older version of the script?</p>
+<p>I am using Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)</p>
+<p>Many thanks in advance!</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1985">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/a0340ec7e21f49b53856842d8eca61c4?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Hegemon</cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-1985" rel="bookmark" title=""><abbr class="published updated" title="2009-12-12T22:28:01Z">December 12th, 2009 at 10:28 pm</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>Hi there,</p>
+<p>Your script is quite wonderful, but I have one improvement I&#8217;d like to see; don&#8217;t turn off the script on right clicks! It makes trying to copy an image from Google&#8217;s search results or trying to even copy the link location impossible and makes me keep wanting to turn GL off! If you could change that, that would be awesome.</p>
+<p>Cheers!</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-2230">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/12e242988e0926b5db22a217216107fd?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Dan</cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-2230" rel="bookmark" title=""><abbr class="published updated" title="2010-04-16T19:27:31Z">April 16th, 2010 at 7:27 pm</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>If you don&#8217;t support IE, then why is this coded thus&#8230; verbosely? You could kick out all the js-positioning-ordeal and just use css fixed positioning.</p>
+<p>And if it wasn&#8217;t for Firefox you could use a nice SVG image as load icon (Ff doesn&#8217;t support SVG-animation for JS-generated SVGs yet &#8211; you&#8217;d have to animate it with JS, too) instead of that ugly GIF.</p>
+<p>I actually did all that for my own Opera version. Looks and works great. Nonetheless good work thus far. <img src='http://shiftingpixel.com/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-2236">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/8d70b1740cf1591d9bcac5628ce06fa7?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Rich</cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-2236" rel="bookmark" title=""><abbr class="published updated" title="2010-04-29T14:32:19Z">April 29th, 2010 at 2:32 pm</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>Hi,</p>
+<p>For some reason the left and right arrow keys don&#8217;t seem to be working in Webkit, I also wanted to suggest that n and p have the same function.</p>
+<p>I&#8217;d also be happy to beta test, I joined your google group but it looks pretty inactive?</p>
+<p>PS Thanks for finally making Flickr usable! <img src='http://shiftingpixel.com/wp-includes/images/smilies/icon_biggrin.gif' alt=':D' class='wp-smiley' /> </p>
+<p>Rich</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-2238">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/95312e79a6a0cc1de0f5875996848999?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://my.opera.com/zahek' rel='external nofollow' class='url'>zahek</a></cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-2238" rel="bookmark" title=""><abbr class="published updated" title="2010-05-01T06:34:59Z">May 1st, 2010 at 6:34 am</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>After new update of Opera to 10.53, this is not work in Deviantart but it works in other websites.Could you please check it</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-2394">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/bbbca8ceafbf57cd5bf6b32f1212075a?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://www.signashirt.com' rel='external nofollow' class='url'>Allen Williams</a></cite> said
+						<br />
+
+			<small class="commentMetadata"><a href="index.html_p=1063#comment-2394" rel="bookmark" title=""><abbr class="published updated" title="2010-08-15T16:39:09Z">August 15th, 2010 at 4:39 pm</abbr></a> </small>
+			</p>
+		</div>
+
+		<div class="postBody entry-content">
+			<p>Is  it possible for Greased Lightbox or similar product to display (2) images superimposed upon one another (in the same place).</p>
+<p>Image 1: &#8216;transparent gif&#8217; (top image)<br />
+Image 2: &#8216;jpg&#8217; -bottom image- </p>
+<p>Allen</p>
+					</div>
+	</li>
+		</li>
+ </ol>
+
+ <div class="metaGutter">&nbsp;</div>
+ <div class="postBody navigation">
+
+ </div>
+
+
+</div> <!-- #comments -->
+
+<div class="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-1559564011388652";
+/* Comments leaderboard */
+google_ad_slot = "0757537148";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+</div> <!-- #commentsWrapper -->
+<hr /><div class="clearer">&nbsp;</div>
+<div id="footerWrapper">
+<div id="footer">	<div id="leftSidebar">
+
+    	        <h2>Must See</h2>
+        <div class="smallblocks clearfix"><span class="photo"><a href="index.html_p=195" title="two eight nine"><img src="slir/w86-h86-c1:1/wp-content/uploads/2008/05/two-eight-nine.jpg" alt="two eight nine" title="two eight nine" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="index.html_p=559" title="Grey nurse shark"><img src="slir/w86-h86-c1:1/wp-content/uploads/2008/05/grey-nurse-shark.jpg" alt="Grey nurse shark" title="Grey nurse shark" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="index.html_p=315" title="Swanson Tennis Center 1"><img src="slir/w86-h86-c1:1/wp-content/uploads/2008/05/swanson-tennis-center-1.jpg" alt="Swanson Tennis Center 1" title="Swanson Tennis Center 1" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="index.html_p=603" title="Tongue"><img src="slir/w86-h86-c1:1/wp-content/uploads/2007/02/tongue.jpg" alt="Tongue" title="Tongue" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="index.html_p=13" title="Christ Door"><img src="slir/w86-h86-c1:1/wp-content/uploads/2006/05/christ_door.jpg" alt="Christ Door" title="Christ Door" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="index.html_p=855" title="A Coffee Bean 1"><img src="slir/w86-h86-c1:1/wp-content/uploads/2008/02/coffee-bean.jpg" alt="A Coffee Bean 1" title="A Coffee Bean 1" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="index.html_p=685" title="Gustavus Adolphus"><img src="slir/w86-h86-c1:1/wp-content/uploads/2007/04/gustavus-adolphus.jpg" alt="Gustavus Adolphus" title="Gustavus Adolphus" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="index.html_p=530" title="rock-tree"><img src="slir/w86-h86-c1:1/wp-content/uploads/2009/03/rock-tree.jpg" alt="rock-tree" title="rock-tree" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="index.html_p=273" title="Bosc pear 5"><img src="slir/w86-h86-c1:1/wp-content/uploads/2008/05/bosc-pear-5.jpg" alt="Bosc pear 5" title="Bosc pear 5" width="86" height="86" /></a></span>
+</div><!-- Random Posts took 29.619 ms -->        <p class="clearfix"><small><a href="category/photos/portfolio.1">Browse all &ldquo;Must see&rdquo; photos</a></small></p>
+
+    </div>
+
+<div id="rightSidebar">
+     		<div id="popularPosts">
+            <h2>Latest Photos</h2>
+			<div class="smallblocks clearfix">
+            <span class="photo"><a href="index.html_p=1807" title="Air Ship Rail"><img src="slir/w86-h86-c1:1/wp-content/uploads/2011/04/IMG_3536.jpg" alt="Air Ship Rail" title="Air Ship Rail" width="86" height="86" /></a></span><span class="photo"><a href="index.html_p=1803" title="Vines reaching out"><img src="slir/w86-h86-c1:1/wp-content/uploads/2011/04/IMG_3534.jpg" alt="Vines reaching out" title="Vines reaching out" width="86" height="86" /></a></span><span class="photo"><a href="index.html_p=1799" title="Buildingtops"><img src="slir/w86-h86-c1:1/wp-content/uploads/2011/04/IMG_3530.jpg" alt="Buildingtops" title="Buildingtops" width="86" height="86" /></a></span><span class="photo"><a href="index.html_p=1794" title="505"><img src="slir/w86-h86-c1:1/wp-content/uploads/2011/04/IMG_3526.jpg" alt="505" title="505" width="86" height="86" /></a></span><span class="photo"><a href="index.html_p=1790" title="Intersecting parking spots"><img src="slir/w86-h86-c1:1/wp-content/uploads/2011/04/IMG_3521.jpg" alt="Intersecting parking spots" title="Intersecting parking spots" width="86" height="86" /></a></span><span class="photo"><a href="index.html_p=1784" title="Everywhere"><img src="slir/w86-h86-c1:1/wp-content/uploads/2011/04/IMG_3501.jpg" alt="Everywhere" title="Everywhere" width="86" height="86" /></a></span><div class="small"><span class="photo"><a href="index.html_p=1777" title="Welcome"><img src="slir/w38-h38-c1:1/wp-content/uploads/2011/04/IMG_3499.jpg" alt="Welcome" title="Welcome" width="38" height="38" /></a></span><span class="photo"><a href="index.html_p=1765" title="Hubcap clocks"><img src="slir/w38-h38-c1:1/wp-content/uploads/2010/09/1283633957305.jpg" alt="Hubcap clocks" title="Hubcap clocks" width="38" height="38" /></a></span><span class="photo"><a href="index.html_p=1763" title="4-H Building"><img src="slir/w38-h38-c1:1/wp-content/uploads/2010/09/1283625129908.jpg" alt="4-H Building" title="4-H Building" width="38" height="38" /></a></span><span class="photo"><a href="index.html_p=1756" title="Christ Chapel at Gustavus"><img src="slir/w38-h38-c1:1/wp-content/uploads/2010/09/4910525011_081590f1f6_o.jpg" alt="Christ Chapel at Gustavus" title="Christ Chapel at Gustavus" width="38" height="38" /></a></span><span class="photo"><a href="index.html_p=1753" title="Tomatoes and Peppers"><img src="slir/w38-h38-c1:1/wp-content/uploads/2010/09/4915226332_a849178930_o.jpg" alt="Tomatoes and Peppers" title="Tomatoes and Peppers" width="38" height="38" /></a></span><span class="photo"><a href="index.html_p=1748" title="Coca-Cola Mural"><img src="slir/w38-h38-c1:1/wp-content/uploads/2010/09/4928545472_7139133c14_o.jpg" alt="Coca-Cola Mural" title="Coca-Cola Mural" width="38" height="38" /></a></span><span class="photo"><a href="index.html_p=1744" title="Saint Peter Water Tower"><img src="slir/w38-h38-c1:1/wp-content/uploads/2010/09/4950146640_4fa26d553c_o.jpg" alt="Saint Peter Water Tower" title="Saint Peter Water Tower" width="38" height="38" /></a></span><span class="photo"><a href="index.html_p=1740" title="Canned Grape Jelly"><img src="slir/w38-h38-c1:1/wp-content/uploads/2010/09/4918682700_a0363a2bcb_o.jpg" alt="Canned Grape Jelly" title="Canned Grape Jelly" width="38" height="38" /></a></span><span class="photo"><a href="index.html_p=1731" title="Canning Grape Jelly"><img src="slir/w38-h38-c1:1/wp-content/uploads/2010/09/4918079385_e278c095f4_o.jpg" alt="Canning Grape Jelly" title="Canning Grape Jelly" width="38" height="38" /></a></span><span class="photo"><a href="index.html_p=1662" title="starburst"><img src="slir/w38-h38-c1:1/wp-content/uploads/2010/01/starburst.jpg" alt="starburst" title="starburst" width="38" height="38" /></a></span><span class="photo"><a href="index.html_p=1665" title="luna-moth-matrix"><img src="slir/w38-h38-c1:1/wp-content/uploads/2010/01/luna-moth-matrix.jpg" alt="luna-moth-matrix" title="luna-moth-matrix" width="38" height="38" /></a></span><span class="photo"><a href="index.html_p=1675" title="gustavus-adolphus-2"><img src="slir/w38-h38-c1:1/wp-content/uploads/2010/01/gustavus-adolphus-2.jpg" alt="gustavus-adolphus-2" title="gustavus-adolphus-2" width="38" height="38" /></a></span>			</div>
+			</div>
+        </div>
+
+        <div id="latestPosts">
+            <h2>Latest Articles</h2>
+            <ol>
+            				<li><a href="index.html_p=1063" rel="bookmark" title="Permanent Link to Greased Lightbox v0.18">Greased Lightbox v0.18</a></li>
+								<li><a href="index.html_p=1039" rel="bookmark" title="Permanent Link to L.A. Trip Winners">L.A. Trip Winners</a></li>
+								<li><a href="index.html_p=1014" rel="bookmark" title="Permanent Link to Win a Trip to a Spike Lee Movie Premiere in L.A.">Win a Trip to a Spike Lee Movie Premiere in L.A.</a></li>
+								<li><a href="index.html_p=997" rel="bookmark" title="Permanent Link to Three Years">Three Years</a></li>
+							</ol>
+
+						<h2>Popular</h2>
+			<ul><li><a href="index.html_p=603" rel="bookmark" title="January 25, 2007">Tongue</a></li>
+
+<li><a href="index.html_p=896" rel="bookmark" title="March 3, 2008">Smart Image Resizer</a></li>
+
+<li><a href="index.html_p=706" rel="bookmark" title="June 2, 2007">5 Essential Tips For Buying a DSLR Camera</a></li>
+
+<li><a href="index.html_p=768" rel="bookmark" title="August 11, 2007">Yellow Ants, Acanthomyops</a></li>
+</ul><!-- Random Posts took 5.897 ms -->			        </div>
+    	<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer"></div>
+	<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+<hr />
+
+<div id="copyrightWrapper">
+<div id="copyright">
+    <p id="copyrightNotice"><small>Copyright &copy; 2005&ndash;11 <a href="mailto:joe@shiftingpixel.com">Joe Lencioni</a></small></p>
+
+	<div id="creativeCommons">
+		<!-- Creative Commons License -->
+		<p><small>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/">Creative Commons Attribution-NonCommercial-ShareAlike 2.5&nbsp;License</a>. <a href="attribution-requirements/index.html">Attribution requirements for my work</a>.</small></p>
+		<!-- /Creative Commons License -->
+	</div>
+
+    <p id="footerLogo"><a href="index.html" title="Return to the homepage"><img src="http://shiftingpixel.com/wp-content/themes/shifting2/images/camera-logo-small.png" width="70" height="53" alt="Shifting Pixel logo" /></a></p>
+
+    <div class="noscreen">
+        <address id="hcard-Joe-Lencioni" class="vcard">
+        <a class="url fn" href="index.html">Joe Lencioni</a>
+        <span class="org">Shifting Pixel</span>
+        <a class="email" href="mailto:joe@shiftingpixel.com">joe@shiftingpixel.com</a>
+        <span class="adr">
+            <span class="locality">Saint Peter</span>, <span class="region">Minnesota</span>, <span class="postal-code">56082</span>
+            <span class="country-name">United States of America</span>
+        </span>
+        </address>
+    </div>
+
+	<!--
+
+	<rdf:RDF xmlns="http://web.resource.org/cc/"
+		xmlns:dc="http://purl.org/dc/elements/1.1/"
+		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<Work rdf:about="">
+	   <dc:creator><Agent>
+		  <dc:title>Joe Lencioni</dc:title>
+	   </Agent></dc:creator>
+	   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+	   <dc:source rdf:resource="http://shiftingpixel.com"/>
+	   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/" />
+	</Work>
+
+	<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/">
+	   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+	   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+	   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+	   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+	   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+	   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+	   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+	</License>
+
+	</rdf:RDF>
+
+	-->
+
+	<!-- 126 queries. 0.235 seconds. -->
+
+	<div class="clearer"></div>
+</div>
+</div><script type='text/javascript' src='http://api.flattr.com/js/0.6/load.js?mode=auto&#038;ver=0.6'></script>
+</body>
+</html>
