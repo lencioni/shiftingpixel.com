@@ -1,0 +1,1247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="microid" content="mailto+http:sha1:6faf383e2bd5834b9143add400ece28347ba1be9" />
+
+<title>Smart Image Resizer (PHP): a simple way to create thumbnails and more on the fly - Shifting Pixel</title>
+
+<meta name="generator" content="WordPress 3.3" /> <!-- leave this for stats -->
+
+<link rel="stylesheet" href="http://static.shiftingpixel.com/wp-content/themes/shifting2/style.css" type="text/css" media="screen" />
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" href="http://shiftingpixel.com/wp-content/themes/shifting2/style-IE6.css" media="screen" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="http://shiftingpixel.com/wp-content/themes/shifting2/style-IE7.css" media="screen" />
+<![endif]-->
+
+<link rel="favicon" href="../../../../../favicon.ico" />
+<link rel="shortcut icon" href="../../../../../favicon.ico" />
+
+<link rel="alternate" type="application/rss+xml" title="Shifting Pixel &raquo; Smart Image Resizer Comments Feed" href="../feed/index.html" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../../../xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://shiftingpixel.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Minimalism 4' href='../../../../../index.html?p=869' />
+<link rel='next' title='Minimalism 5' href='../../../../../index.html?p=871' />
+<meta name="generator" content="WordPress 3.3" />
+<link rel='canonical' href='../../../../../index.html?p=896' />
+<link rel='shortlink' href='../../../../../index.html?p=896' />
+
+<script type="text/javascript" src="http://static.shiftingpixel.com/wp-content/themes/shifting2/scripts.js"></script> 
+</head>
+<body class="post896">
+<!-- ukey="6933AB70" -->
+
+
+<div id="headerWrapper">
+<div id="header">
+	<p id="logo"><a href="../../../../../index.html" title="Return to the homepage">Shifting Pixel</a></p>
+        
+    <!--<p id="associationWith"><a href="http://9rules.com" title="A proud member of the 9rules Network">In association with 9rules Network</a></p>-->
+	
+	<div id="navigation">
+		<ul>
+			<li id="archives"><a href="../../../../../archives/index.html">Archives</a></li>
+			<li id="about"><a href="../../../../../about/index.html">About</a></li>
+			<li id="downloads"><a href="../../../../../download/index.html">Downloads</a></li>
+		</ul>
+	</div>
+	
+	<form name="cse" id="searchForm" action="https://www.google.com/search">
+  <div>
+  <input type="hidden" name="sitesearch" value="shiftingpixel.com" />
+  <input name="q" type="text" id="searchTerms" />
+  <input type="submit" id="searchSubmit" value="Search" />
+  </div>
+</form>
+	
+	<!--[if lt IE 7]>
+	<div id="upgradeYourBrowser">
+		<h1><strong>Please</strong> upgrade your browser.</h1>
+		<p><strong>Everything</strong> will be better if you use <a href="http://www.spreadfirefox.com/?q=affiliates&amp;id=38695">Firefox</a>, <a href="http://opera.com">Opera</a>, or <a href="http://www.google.com/chrome">Google Chrome</a>. They are <strong>entirely free</strong> and it only takes a minute to download and install.</p>
+	</div>
+	<![endif]-->
+
+	<div class="clearer"></div>
+</div>
+</div>
+
+<hr />
+
+<div id="browsingNavigation">
+<div id="previousPost">
+<a href="../../../../../index.html?p=869"><span class="photo"><img src="../../../../../slir/w86-h86-c1:1/wp-content/uploads/2008/03/minimalism-4.jpg" alt="Minimalism 4" title="Minimalism 4" width="86" height="86" /></span> Minimalism 4</a></div>
+
+<div id="nextPost">
+<a href="../../../../../index.html?p=871"><span class="photo"><img src="../../../../../slir/w86-h86-c1:1/wp-content/uploads/2008/03/minimalism-5.jpg" alt="Minimalism 5" title="Minimalism 5" width="86" height="86" /></span> Minimalism 5</a></div>
+</div>
+<div class="clearer"></div>
+<div id="content" class="hfeed">
+  <div id="pageContent">
+        <div class="post" id="post-896">
+      <div class="postTop">
+        <h1 class="postTitle"><a href="../../../../../index.html?p=896" rel="bookmark" class="entry-title">
+          Smart Image Resizer          </a><span class="noscreen author vcard"> by <cite><a class="url fn" href="http://joelencioni.com">
+          Joe Lencioni          </a></cite></span></h1>
+        <abbr class="postMeta published updated" title="2008-03-03T18:08:35Z"> <span class="postDate">
+        March 3, 2008        </span> </abbr> by <a href="http://joelencioni.com" title="Visit Joe Lencioni&#8217;s website" rel="external author">Joe Lencioni</a> </div>            <div class="clearer"></div>
+      <div class="metaGutter">
+        				<div class="related_posts"><h4>Similar posts</h4><ul
+class="related_post"><li><a href="../../../../../index.html?p=786" rel="bookmark" title="August 26, 2007">Greased Lightbox v0.15</a></li>
+
+<li><a href="../../../../../index.html?p=853" rel="bookmark" title="February 4, 2008">Greased Lightbox v0.16</a></li>
+</ul></div><!-- Similar Posts took 15.872 ms -->				
+		
+              </div>
+      <div class="postBody entry-content">
+        <script type="text/javascript"><!--
+google_ad_client = "pub-1559564011388652";
+/* 468x60, created 4/30/08 */
+google_ad_slot = "7494546370";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+        <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+        <p><span class="leadin">A ridiculously easy-to-use <acronym title="Hypertext Preprocessor">PHP</acronym> script for resizing images the smart way.</span></p>
+<p>One of the challenges that comes with maintaining a graphic-intensive website like <a href="../../../../../index.html">Shifting Pixel</a> is finding a way to get high quality images throughout the site with as little effort as possible. To tackle this, I developed the Smart Image Resizer and have been using it around the site for the past few months. I couldn&#8217;t be happier.</p>
+<p>The major advantage of this script is that it allows me to resize and crop any image on my website <em>without touching the actual image or writing any code</em>. I upload each image once at a high enough resolution and can then reuse it at any size I want, anywhere I want. It doesn&#8217;t matter if the images are in a post, on a page, or in a template file&#8211;it just works. <small>All of the magic is done through the query string part of the URL in the <code>src</code> attribute of the <code>img</code> tag.</small></p>
+<p>And, if this wasn&#8217;t a big enough time-saver for me right now, it&#8217;ll be a huge time-saver the next time I decide to redesign my site. It&#8217;s a relief that I won&#8217;t have to go through to resize and re-upload a thousand photos to make sure they look right&#8211;I&#8217;ll just have to change the links to them and I&#8217;ll be all set.</p>
+<h3>Features</h3>
+<ul>
+<li>Resizes <acronym title="Joint Photographic Experts Group">JPEG</acronym>s, <acronym title="Graphics Interchange Format">GIF</acronym>s, and <acronym title="Portable Network Graphics">PNG</acronym>s</li>
+<li>Intelligently sharpens for crisp photos at any size</li>
+<li>Can crop based on width:height ratios</li>
+<li>Can color-fill transparent GIFs and PNGs</li>
+<li>Built-in caching keeps image variations for optimal performance</li>
+</ul>
+<h3>Requirements</h3>
+<p><a href="http://php.net">PHP 5.1.0+</a> compiled with <a href="http://php.net/gd">GD</a>. (<em>You need a version of GD that supports <code>imageconvolution()</code>, such as the bundled version. Note that on some distributions, the default php-gd package may not be adequate.</em>)</p>
+<h3>Download</h3>
+<p><a href="http://code.google.com/p/smart-lencioni-image-resizer/">Download SLIR 2.0</a></p>
+<p><a href="../../../../../downloads/image-1.4.1.zip">Download Smart Image Resizer v1.4.1</a> <small>(Released August 6, 2008)</small></p>
+<h3 style="margin-bottom: .5em;">Tip jar</h3>
+<!-- WordPress Flattr Shortcode Widget -->
+<script type="text/javascript">
+var flattr_uid = 'lencioni';
+var flattr_tle = 'Smart Image Resizer';
+var flattr_dsc = 'A ridiculously easy-to-use PHP script for resizing images the smart way. One of the challenges that comes with maintaining a graphic-intensive website like Shifting Pixel is finding a way to get high quality images throughout the site with as little effort as possible. To tackle this, I developed the Smart Image Resizer and have been [...]';
+var flattr_cat = 'text';
+var flattr_lng = '';
+var flattr_url = 'http://shiftingpixel.com/2008/03/03/smart-image-resizer/';
+var flattr_hide = '0';
+</script>
+<script src="http://api.flattr.com/button/load.js" type="text/javascript"></script>
+
+<form style="margin-top: 1em;" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_donations" />
+<input type="hidden" name="business" value="JK9575QRM92L2" />
+<input type="hidden" name="lc" value="US" />
+<input type="hidden" name="item_name" value="Smart Lencioni Image Resizer" />
+<input type="hidden" name="currency_code" value="USD" />
+<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHosted" />
+<input style="border: none;" type="image" name="submit" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" alt="Donate" /> <img src="https://www.paypal.com/en_US/i/scr/pixel.gif" alt="" width="1" height="1" border="0" /></form>
+<h3>To Install</h3>
+<ol>
+<li>Unzip on your web server</li>
+<li>In the same directory, create a directory called &#8220;imagecache&#8221;</li>
+<li>Make your imagecache directory is writable by the web server (usually <code>chmod 775</code>)</li>
+</ol>
+<h3>Troubleshooting</h3>
+<ul>
+<li>Turn on &#8220;display_errors = on&#8221; in your php.ini file. Restart Apache and verify with a phpinfo().</li>
+<li>Try visiting the URL that you are using as the <code>src</code> attribute of your <code>img</code> tag directly in the browser. For example, for example, stick this in your browser&#8217;s address bar: <code>http://example.com/image.php?width=180&amp;height=180&amp;image=/path/to/image.jpg</code>. If there is an error message here, it should be quite helpful.</li>
+<li>If that doesn’t give you any information, turn on error reporting (add <code>error_reporting(E_ALL);</code> to the top of image.php) and see if that gives you any information. It is possible that the script is trying to use a function that doesn’t exist in your installation and configuration of PHP.</li>
+<li>If you can’t get the script to give you any information, try peaking into your error logs.</li>
+<li>Finally, if you can’t get any information out of any of these things, run a <code>phpinfo()</code> and <a href="mailto:joe@shiftingpixel.com">send me a link</a>–if I have time I’ll take a look at it and tell you if anything looks out of the ordinary. As of this time, I am spending more time focusing on <a href="http://code.google.com/p/smart-lencioni-image-resizer/">SLIR 2</a>.</li>
+</ul>
+<h4>Common error messages</h4>
+<dl>
+<dt><strong>Fatal error:</strong> Call to undefined function imagecreatetruecolor()</dt>
+<dd>This most likely means that you do not have GD installed. To fix this, install GD (make sure you are using a version that includes the <code>imageconvolution()</code> function).</dd>
+<dt><strong>Fatal error:</strong> Call to undefined function imageconvolution()</dt>
+<dd>This means that you are using a version of GD that does not include the <code>imageconvolution()</code> function. To fix this, you will either need to find a repository that includes the version of GD that you need, or <a href="http://cumu.li/2008/5/13/recompiling-php5-with-bundled-support-for-gd-on-ubuntu">compile php-gd from source</a>.</dd>
+</dl>
+<h3>License</h3>
+<p>I love to hear when my work is being used, so if you decide to use it, feel encouraged to send me an email. Smart Image Resizer is released under a <a href="http://creativecommons.org/licenses/by-sa/3.0/us/" rel="nofollow">Creative Commons Attribution-Share Alike 3.0 United States</a> license. All I ask is that you <a href="../../../../../attribution-requirements/index.html">include a link back to Shifting Pixel</a> (either this page or shiftingpixel.com), but don&#8217;t worry about including a big link on each page if you don&#8217;t want to&#8211;one will do just nicely. Feel free to <a href="mailto:joe@shiftingpixel.com">contact me to discuss any specifics</a>.</p>
+<h3>Examples</h3>
+<p>These examples use <a href="../../../../../index.html?p=855">my photo of this coffee bean</a>. For more fine photography, <a href="../../../../../category/photos/portfolio.1">browse my &#8220;Must See&#8221; photos</a> or <a class="rss" href="../../../../../subscribe.1">subscribe</a>.</p>
+<h4>Resizing a JPEG</h4>
+<pre><code>&lt;img src="/image.php?width=200&amp;amp;height=200&amp;amp;image=/wp-content/uploads/2008/03/coffee-bean.jpg" alt="Coffee Bean" /&gt; </code></pre>
+<p><img src="../../../../../slir/w200-h200/wp-content/uploads/2008/03/coffee-bean.jpg" alt="Coffee Bean" /> <img src="../../../../../slir/w100-h100/wp-content/uploads/2008/03/coffee-bean.jpg" alt="Coffee Bean" /> <img src="../../../../../slir/w50-h50/wp-content/uploads/2008/03/coffee-bean.jpg" alt="Coffee Bean" /></p>
+<h4>Resizing and cropping a JPEG into a square</h4>
+<pre><code>&lt;img src="/image.php?width=150&amp;amp;height=150&amp;amp;<strong>cropratio=1:1</strong>&amp;amp;image=/wp-content/uploads/2008/03/coffee-bean.jpg" alt="Coffee Bean" /&gt; </code></pre>
+<p><img src="../../../../../slir/w150-h150-c1:1/wp-content/uploads/2008/03/coffee-bean.jpg" alt="Coffee Bean" /> <img src="../../../../../slir/w100-h100-c1:1/wp-content/uploads/2008/03/coffee-bean.jpg" alt="Coffee Bean" /> <img src="../../../../../slir/w50-h50-c1:1/wp-content/uploads/2008/03/coffee-bean.jpg" alt="Coffee Bean" /></p>
+              </div>
+      <div class="clearer"></div>
+            <div class="clearer"></div>
+    </div>
+
+    <!--
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://shiftingpixel.com/2008/03/03/smart-image-resizer/"
+    dc:identifier="http://shiftingpixel.com/2008/03/03/smart-image-resizer/"
+    dc:title="Smart Image Resizer"
+    trackback:ping="http://shiftingpixel.com/2008/03/03/smart-image-resizer/trackback/" />
+</rdf:RDF>    -->
+
+      </div>
+</div>
+<hr />
+
+<div id="commentsWrapper" class="hfeed">
+<div id="comments">
+
+<h2 id="commentsTitle"><a name="comments">371 Comments</a></h2>
+
+<div class="metaGutter">&nbsp;</div>
+ <div class="postBody navigation">
+  <a class="prev page-numbers" href="../comment-page-5/index.html#comments">&laquo; Previous</a>
+<a class='page-numbers' href='../comment-page-1/index.html#comments'>1</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class='page-numbers' href='../comment-page-4/index.html#comments'>4</a>
+<a class='page-numbers' href='../comment-page-5/index.html#comments'>5</a>
+<span class='page-numbers current'>6</span>
+<a class='page-numbers' href='../comment-page-7/index.html#comments'>7</a>
+<a class='page-numbers' href='../comment-page-8/index.html#comments'>8</a>
+<a class="next page-numbers" href="../comment-page-7/index.html#comments">Next &raquo;</a> 
+ </div>
+ 
+ <ol class="commentList clearfix">
+  	<li class="hentry clearfix" id="comment-1658">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/5852d81cceb15061ed13662d45b83dda?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://www.perfspot.com/naveedahmed' rel='external nofollow' class='url'>Naveed Ahmed</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1658" rel="bookmark" title=""><abbr class="published updated" title="2009-03-31T01:33:01Z">March 31st, 2009 at 1:33 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>i am new to php and i want to use that smart image resize script but i do not know how it can be used on website?</p>
+<p>plz guide me, </p>
+<p>i will thankful to u.</p>
+<p>waiting for quick response.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1685">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/97ec856822fa4b1dc0a2031da0659e05?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">BoRn 2WiN</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1685" rel="bookmark" title=""><abbr class="published updated" title="2009-04-03T01:30:37Z">April 3rd, 2009 at 1:30 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Have anybody checked this in the php version-PHP Version 5.2.9-0.dotdeb.1<br />
+GD library- bundled (2.0.34 compatible)<br />
+It work great in my old server but above mentioned is my current server details.<br />
+This is not working here.No image is displayed .I can able to get the alt text only.<br />
+No permission problem.<br />
+What else cause this to stop working.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1701">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/15606635fb39735201c43e54c9483f7b?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Ravi Patidar</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1701" rel="bookmark" title=""><abbr class="published updated" title="2009-04-08T01:23:44Z">April 8th, 2009 at 1:23 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>hello,<br />
+  Is there any way to use this image display by Imagemagick library? I have been used this script and it is working fine but I want to use Imagemagick library for image resizing and display them, Even I done at the level of resizing the images and also sent them the imagecache folder but unable to display those resized images.<br />
+           Please help me  if you have any solution or suggestions.<br />
+Thanks</p>
+					</div>
+	</li>
+			<li class="clearfix">
+			<div class="metaGutter">&nbsp;</div>
+			<div class="postBody">
+			<script type="text/javascript"><!--
+			google_ad_client = "pub-1559564011388652";
+			/* Comments */
+			google_ad_slot = "9268941540";
+			google_ad_width = 468;
+			google_ad_height = 60;
+			//-->
+			</script>
+			<script type="text/javascript"
+			src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+			</script>
+			</div>
+		</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1703">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=86' class='avatar avatar-86 photo avatar-default' height='86' width='86' />			<cite class="entry-title author"><a href='http://goldblog.com.ua/?p=222' rel='external nofollow' class='url'>21 полезный компонент PHP | Блог Web-мастера | Блог Web-мастера</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1703" rel="bookmark" title=""><abbr class="published updated" title="2009-04-08T05:38:46Z">April 8th, 2009 at 5:38 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>[...] 19. «Умное» изменение размера изображения [...]</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1725">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/a576b27a29c7407412f7cbe4d674f648?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Mehmet</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1725" rel="bookmark" title=""><abbr class="published updated" title="2009-04-17T18:05:17Z">April 17th, 2009 at 6:05 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Hey, i need HELP! I&#8217;m using appServ. It&#8217;s root is &#8220;www&#8221; directory. I have a folder named &#8220;avp&#8221; in &#8220;www&#8221;. Your php file is in this directory. However, i can&#8217;t manage to show images!!! There is not enough explanation or example, please help&#8230; Thing i tried is below:</p>
+<p>when i make it &#8220;src=&#8217;./im&#8230;.&#8221; it shows the picture. However, when i put it to web, it doesn&#8217;t work! (On the server, the file structure is the same! Everything is in &#8220;avp&#8221; folder)</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1726">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/9cb5ce1e4c0efa3d5ed80607e964b6ad?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Jon</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1726" rel="bookmark" title=""><abbr class="published updated" title="2009-04-18T16:41:05Z">April 18th, 2009 at 4:41 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Great script! Exactly what I was looking for!</p>
+<p>This is going to be used in a photography portfolio and I&#8217;m also looking to add a small watermark to the bottom right corner of the resized image. I hope I can figure it out on my own as I&#8217;m not php-savvy, but in any case, it&#8217;s an idea for future versions <img src='http://shiftingpixel.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1727">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/e1edb7994dd209f0ea6780b998e90559?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Mike</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1727" rel="bookmark" title=""><abbr class="published updated" title="2009-04-19T10:56:05Z">April 19th, 2009 at 10:56 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>@Jon<br />
+If you found out how to add watermarking, please let me know! I&#8217;ve been trying to do that for a loooooong time.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1728">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/97ec856822fa4b1dc0a2031da0659e05?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">B2W</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1728" rel="bookmark" title=""><abbr class="published updated" title="2009-04-19T11:01:19Z">April 19th, 2009 at 11:01 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Me too waiting for the water marking &#8230;</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1733">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/a08b5b4f0e30f14b9f87b43cef31501b?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://www.gtsparkplugs.com' rel='external nofollow' class='url'>Sandy</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1733" rel="bookmark" title=""><abbr class="published updated" title="2009-04-21T22:55:50Z">April 21st, 2009 at 10:55 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Joe -</p>
+<p>I came across your image resizer when looking for some info on TimThumb. Looks way better!</p>
+<p>Have you given any thought to doing a simple TimThumb emulation mode so I can drop it into my existing WordPress Theme? I am not the author of the theme and would have to hack code all over the place to swap it out, where a quick command line emulator of TimThumb would allow it to drop in to many WP blogs without much work at all.</p>
+<p>Couple of adds to the feature list <img src='http://shiftingpixel.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p>Pass through mode, do nothing but use the passed in image, just use the same url and skip all processing (cache check, etc).<br />
+Automatic Cache Aging some how <img src='http://shiftingpixel.com/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+<p>Anyway code and documentation look very good can&#8217;t wait for a v2 final release</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1735">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=86' class='avatar avatar-86 photo avatar-default' height='86' width='86' />			<cite class="entry-title author"><a href='http://devezine.com/smart-image-resizer-php-a-simple-way-to-create-thumbnails-and-more/' rel='external nofollow' class='url'>Smart Image Resizer (PHP): a simple way to create thumbnails and more &#8230; &laquo; DevEzine</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1735" rel="bookmark" title=""><abbr class="published updated" title="2009-04-23T01:02:46Z">April 23rd, 2009 at 1:02 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>[...] Go here to read the rest: Smart Image Resizer (PHP): a simple way to create thumbnails and more &#8230; [...]</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1737">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/65135b12699aac66cf8d64988caac7f4?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Kyle</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1737" rel="bookmark" title=""><abbr class="published updated" title="2009-04-24T12:34:18Z">April 24th, 2009 at 12:34 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Hello, </p>
+<p>I am definitely loving using this tool&#8211; it has been a life saver!  I have just one simple question, that I&#8217;m hoping someone can answer.  </p>
+<p>After I have resized the image&#8211; how would I be able use the getimagesize() function to get the current height/width of the image?  Would I have to get it from the cached folder somehow?</p>
+<p>Many thanks!</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1738">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/65135b12699aac66cf8d64988caac7f4?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Kyle</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1738" rel="bookmark" title=""><abbr class="published updated" title="2009-04-24T14:33:08Z">April 24th, 2009 at 2:33 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Nevermind, it was easier than I thought it&#8217;d be.  Just place the path in the getimagesize() function.</p>
+<p><code><br />
+list($width, $height) = getimagesize("http://www.yoursite.com/image.php/file-name.jpg?width=250&amp;height=250&amp;image=filename.jpg");<br />
+</code></p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1739">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=86' class='avatar avatar-86 photo avatar-default' height='86' width='86' />			<cite class="entry-title author"><a href='http://dgmike.com.br/2008/08/smart-image-resizer-php-uma-forma-muito-simples-de-redimensionar-imagens/' rel='external nofollow' class='url'>Smart Image Resizer PHP: Uma forma muito simples de redimensionar imagens | DGmike</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1739" rel="bookmark" title=""><abbr class="published updated" title="2009-04-25T07:45:32Z">April 25th, 2009 at 7:45 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>[...] Fica aí a dica: Smart Image Resizer PHP: a simple way to create thumbnails and more on the fly — Shifting Pixel. [...]</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1740">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/0ac79931e7059050832fe6701de4a548?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://www.hydrofarm.com' rel='external nofollow' class='url'>Chris</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1740" rel="bookmark" title=""><abbr class="published updated" title="2009-04-28T11:03:11Z">April 28th, 2009 at 11:03 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>First off let me say thanks for this great tool!  I have a question though &#8211; in my php error log I keep intermittently finding: </p>
+<p>PHP Fatal error:  Cannot redeclare findsharp() (previously declared in E:\sites\hydrofarm.com\image.php:369) in E:\sites\hydrofarm.com\image.php on line 379</p>
+<p>I&#8217;m using an unmodified version 1.4.1 image.php and looking at the code I can&#8217;t fathom why I would get that error. Any ideas?</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1741">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/10067920d2d11d1db8cb0035730b41f9?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">zach</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1741" rel="bookmark" title=""><abbr class="published updated" title="2009-04-28T11:18:28Z">April 28th, 2009 at 11:18 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>you say &#8220;intermittently&#8221;. i see E:\sites\&#8230; is the script run locally?<br />
+are you using a cloud? it may be leftover memory</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1742">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/0ac79931e7059050832fe6701de4a548?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://www.hydrofarm.com' rel='external nofollow' class='url'>Chris</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1742" rel="bookmark" title=""><abbr class="published updated" title="2009-04-28T11:41:55Z">April 28th, 2009 at 11:41 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Not using a cloud&#8230; we host the site locally on a dedicated (IIS) server and E:\sites\&#8230; is the physical path to the site. As far as defining &#8220;intermittently&#8221;  I&#8217;m getting maybe 10 of these errors a day.  The script runs thousands of times a day and while it doesn&#8217;t seem to be causing a problem, I just like keeping my error log tidy.  <img src='http://shiftingpixel.com/wp-includes/images/smilies/icon_smile.gif' alt=':-)' class='wp-smiley' /> </p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1743">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=86' class='avatar avatar-86 photo avatar-default' height='86' width='86' />			<cite class="entry-title author"><a href='http://www.ebuyukkaya.com/internet-alemi/php-ile-resim-boyutlandirma-scripti' rel='external nofollow' class='url'>PHP ile Resim Boyutlandırma Scripti | EBüyükkaya | Not Defterim</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1743" rel="bookmark" title=""><abbr class="published updated" title="2009-04-29T20:21:04Z">April 29th, 2009 at 8:21 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>[...] Smart Image Resizer  [...]</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1747">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/26c7ba66c57ee142c6c39e3e93526320?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://www.shoja3.ws' rel='external nofollow' class='url'>shoja3</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1747" rel="bookmark" title=""><abbr class="published updated" title="2009-05-03T18:32:14Z">May 3rd, 2009 at 6:32 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Very very nice script.</p>
+<p>All other scripts I found do resize the image but make it very ugly <img src='http://shiftingpixel.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p>Thanks again</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1748">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/46c9f52435f8354c20b6adfcb430a9c7?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">rtc</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1748" rel="bookmark" title=""><abbr class="published updated" title="2009-05-04T05:52:05Z">May 4th, 2009 at 5:52 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>hi, this is pretty nice.. looks well written. would be nice to have as a class or function though.. so can use it in other contexts aside from an  tag.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1749">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/0fe6cda9ff014f46be787018918141a0?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Steven</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1749" rel="bookmark" title=""><abbr class="published updated" title="2009-05-04T17:06:22Z">May 4th, 2009 at 5:06 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>I&#8217;ve been using this script on my server for a few projects and it works fine. But today I tried using it on a client&#8217;s server, and when I try to resize a JPG, the script returns nothing (or a blank/empty image &#8211; I&#8217;m not 100% sure). Their phpinfo() reports GD version &#8220;2.0 or higher&#8221;. PNGs work fine. And the files definitely exist. Any idea what could be wrong? I&#8217;ve also noticed that when trying to access a JPG nothing is added to the imagecache folder (when you access a PNG there IS something added).</p>
+<p>Thanks!</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1750">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/c389d960e7efeb2f5352f7ede60719e0?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://cartoonized.net/celebcartoon.php' rel='external nofollow' class='url'>Zora</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1750" rel="bookmark" title=""><abbr class="published updated" title="2009-05-04T20:42:27Z">May 4th, 2009 at 8:42 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>@steven: the first time I used this script, I run it on an IIS web server. The script gave me nothing, no thumbnail displayed.<br />
+And then I moved it to an apache web server. And it works okay.<br />
+I wonder if your client&#8217;s server is an IIS web server also?</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1751">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/2864beebf21db1c1e81cb9044febfa53?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Joe Lencioni</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1751" rel="bookmark" title=""><abbr class="published updated" title="2009-05-04T21:17:29Z">May 4th, 2009 at 9:17 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>@steven, I&#8217;m guessing that while you are using a new enough version of GD, you are not using a version that has the <code>imageconvolution()</code> function in it. I am using <code>imageconvolution()</code> to sharpen the resized JPEGs, which would explain why it still works for you on PNGs. Unfortunately this function is only available if PHP is compiled with the bundled version of the GD library.</p>
+<p>Some people have added a function to get around this <a href="../../../../../index.html?p=896#comment-1327" rel="nofollow">like the one here</a>. Be warned, however, that this function is much slower than the one available in GD and I cannot speak toward the quality of its output.</p>
+<p>I hope that helps.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1752">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/0fe6cda9ff014f46be787018918141a0?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Steven</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1752" rel="bookmark" title=""><abbr class="published updated" title="2009-05-05T10:03:10Z">May 5th, 2009 at 10:03 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>You were right &#8211; I set $doSharpen to false and it works. Thanks!</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1753">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=86' class='avatar avatar-86 photo avatar-default' height='86' width='86' />			<cite class="entry-title author"><a href='http://codefor.com/university/the-photo-guide-my-final-year-project/' rel='external nofollow' class='url'>The Photo Guide, my final year project | Codefor</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1753" rel="bookmark" title=""><abbr class="published updated" title="2009-05-05T11:15:47Z">May 5th, 2009 at 11:15 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>[...] of open source technologies, including: WordPress, JQuery, Google Maps API, TinyMCE, Gravatar and Smart image resizer. I also created a mobile version of the [...]</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1755">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/bfc32defdb2e76902428fcf5744e9a46?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Dan</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1755" rel="bookmark" title=""><abbr class="published updated" title="2009-05-07T05:40:05Z">May 7th, 2009 at 5:40 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>I have a suspicious error that I am sick of looking at because I see no difference. Basically, I have the script in my page twice &#8211; once if there is a thumb defined for that article and one that finds the latest picture linked to that article to use as a thumb. The code for the image is the same however, its just my messy way of using ifs to change the variables within that that is different.</p>
+<p>When the code is kicked into gear via the latter example the source outputs:<br />
+<code>image.php/filename.jpg?width=/alt="Alt Text"</code></p>
+<p>The filename and alt text are correct from the database so the php making the variables is okay &#8211; therefore I dont understand that when it is bringing in the variables where thumb=1 rather than the most recent date, it works perfectly with the source reading (as it should):<br />
+<code>...width=30&amp;height=30&amp;cropratio...</code></p>
+<p>What would cause it to ignore all the middle, put in a slash and skip to alt? The same image works in an &#8220;all images&#8221; gallery so the database data itself that I insert to do the &#8220;image=&#8221; must be okay as that particular one works elsewhere.</p>
+<p>Thanks if you can try and help, I am bored of looking at it now!</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1758">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/b3f038a9b4020bb23123c3817138863a?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Mark</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1758" rel="bookmark" title=""><abbr class="published updated" title="2009-05-09T21:43:05Z">May 9th, 2009 at 9:43 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Awesome script.  Thanks for posting, re-posting and helping out the rest of us!</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1764">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/606bd9e0abcec92e5f86c8f183e7ae68?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">chris</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1764" rel="bookmark" title=""><abbr class="published updated" title="2009-05-12T16:42:29Z">May 12th, 2009 at 4:42 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>I&#8217;m attempting to use SLIR v 2.0b2 and my server is giving me the following error:</p>
+<p>&#8220;.htaccess rewrite engine not allowed here&#8221;.  </p>
+<p>Have any of you seen this error or have an idea what I might be doing wrong?</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1765">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/0e815353ad15c716d429c2eb33a3bc43?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://www.astralaxiom.net' rel='external nofollow' class='url'>Astral Axiom</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1765" rel="bookmark" title=""><abbr class="published updated" title="2009-05-12T17:13:52Z">May 12th, 2009 at 5:13 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Hi!</p>
+<p>I want to thank you so very much for this. I&#8217;ve been looking for something that will resize images without screwing up the look. I had found a &#8220;decent&#8221; one, but left the images very choppy. On top of that, it made many copies of the images. Thumbnail, crop, and the original. This one beats all that by a long shot!</p>
+<p>Thank you!</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1768">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/d1ddc0f035683e471e219675ae1dc85e?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://briankuzma.com' rel='external nofollow' class='url'>brian</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1768" rel="bookmark" title=""><abbr class="published updated" title="2009-05-14T11:39:31Z">May 14th, 2009 at 11:39 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Hi,</p>
+<p>Is it not possible to use images that reside on a server different from your own ?  I&#8217;m trying to use the SIR script on youtube thumbnails, such as <a href="http://img.youtube.com/vi/5gUtSDQAwYw/0.jpg" rel="nofollow">http://img.youtube.com/vi/5gUtSDQAwYw/0.jpg</a>, but I&#8217;m getting an error saying that the image does not exist, and the path that shows up in the error has my domain in it instead of the domain of the image that I specified.  </p>
+<p>Thanks in advance.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1769">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/fdacbfca5b5bf24e6b7c2be71e4c3185?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Lukas</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1769" rel="bookmark" title=""><abbr class="published updated" title="2009-05-15T08:32:46Z">May 15th, 2009 at 8:32 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>very very cool one, thank you!!</p>
+<p>one very little thing i am missing: <strong>rounded corner</strong> <img src='http://shiftingpixel.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /><br />
+have a look right here: <a href="http://ru2.php.net/manual/de/function.imagecopyresampled.php#80417" rel="nofollow">http://ru2.php.net/manual/de/function.imagecopyresampled.php#80417</a></p>
+<p>and may be to have the url as a link for the script!</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1775">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/527374436cf4593dc46829593361ecc0?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Simon7</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1775" rel="bookmark" title=""><abbr class="published updated" title="2009-05-22T16:52:18Z">May 22nd, 2009 at 4:52 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Thanks for this excellent script! It makes image resizing sooo easy.<br />
+An integration for TinyMCE would be great.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1778">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/4e3b21919216b4b828992f47485def4e?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Denis</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1778" rel="bookmark" title=""><abbr class="published updated" title="2009-05-24T05:46:51Z">May 24th, 2009 at 5:46 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Thank you very much for sharing! I agree integration into tinyMce would be perfect.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1779">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=86' class='avatar avatar-86 photo avatar-default' height='86' width='86' />			<cite class="entry-title author"><a href='http://blog.qrisper.com/2009/05/to-procrastinate-is-to-procreate-ideas-in-your-brain/' rel='external nofollow' class='url'>To procrastinate is to procreate ideas in your brain | qrisper</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1779" rel="bookmark" title=""><abbr class="published updated" title="2009-05-24T22:37:57Z">May 24th, 2009 at 10:37 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>[...] And lastly, I was using this solution to manage thumbnail images from the always helpful folks at nettuts.  But at point, I broke it.  Plus, I wasn&#8217;t complete satisfied with the quality of the thumbnails.  So now I&#8217;m using the ridiculously awesome Smart Image Resizer by Joe Lencioni. [...]</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1782">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/606bd9e0abcec92e5f86c8f183e7ae68?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">chris</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1782" rel="bookmark" title=""><abbr class="published updated" title="2009-05-28T13:33:20Z">May 28th, 2009 at 1:33 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>I&#8217;m testing the SLIR beta version (SLIR v 2.0b2), and it&#8217;s working great except that the first time I request an image configuration, it returns blank, with no errors.  If I reload the page, the image appears.  </p>
+<p>Do you think this is a problem with SLIR?</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1785">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/42f4260eee66b8a930cce43c9fada899?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://wulongti.com/blog/' rel='external nofollow' class='url'>WuLongTi</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1785" rel="bookmark" title=""><abbr class="published updated" title="2009-06-01T10:54:21Z">June 1st, 2009 at 10:54 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>I&#8217;ve been trying in vain to get v1.4.1 to work and I keep getting either 404 errors (direct path to image works fine) or if I fully scope the src then I get a 403 Forbidden error.  Not sure what&#8217;s up there and I was about to give up on it all.</p>
+<p>I decided to try out v2.0b1 and in my tests everything is working like a charm!</p>
+<p>Thanks a lot for this awesome script, now I just have to figure out how to work v2 so that I can add watermarks ^__^</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1786">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=86' class='avatar avatar-86 photo avatar-default' height='86' width='86' />			<cite class="entry-title author"><a href='http://wulongti.com/blog/2009/06/01/awesome-image-resizing-script/' rel='external nofollow' class='url'>Awesome image resizing script - WuLongTi&#8217;s Words of Wit</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1786" rel="bookmark" title=""><abbr class="published updated" title="2009-06-01T11:23:26Z">June 1st, 2009 at 11:23 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>[...] thumbs of every upload and then try to store them in the DB somewhere. So I found this script (the Smart Image Resizer by Joe Lencioni) that allows you to set some parameters in your img src tag in order to resize and crop (and [...]</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1787">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/0b6cc2d0c0943c975bc5c08b2856e4ef?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Charles</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1787" rel="bookmark" title=""><abbr class="published updated" title="2009-06-01T18:49:00Z">June 1st, 2009 at 6:49 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>I like this script.</p>
+<p>One question&#8230;does it take significantly longer or is it much more intensive on the script to size, say, an 800px x 800px image down to 200&#215;200, vs a 600&#215;600.</p>
+<p>How much does it matter to the script how large the original image is in sizing it down?</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1788">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/2864beebf21db1c1e81cb9044febfa53?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Joe Lencioni</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1788" rel="bookmark" title=""><abbr class="published updated" title="2009-06-02T20:03:03Z">June 2nd, 2009 at 8:03 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>@chris</p>
+<blockquote><p>“.htaccess rewrite engine not allowed here”.<br />
+Have any of you seen this error or have an idea what I might be doing wrong?</p></blockquote>
+<p>It sounds like your web server has been set up to restrict the use of mod_rewrite in .htaccess files in that directory. This is most likely due to optimizing for speed. If you want SLIR 2.0 to work well you will probably have to mess around with your web server&#8217;s configuration files.</p>
+<p>@brian</p>
+<blockquote><p>Is it not possible to use images that reside on a server different from your own ?</p></blockquote>
+<p>The script is written to strip out the protocol and domain name portion of the image request for security reasons. With a little re-coding, you could make it so it will work with remote images, but I really don&#8217;t recommend it. You&#8217;ll most likely be opening yourself up to a whole world of trouble.</p>
+<p>You would be much better off writing a script that fetches the images from the remote server without requiring the URL of that remote image as a parameter (it should be all figured out internally).</p>
+<p>@Lukas</p>
+<blockquote><p>one very little thing i am missing: rounded corner</p></blockquote>
+<p>Cool, thanks for the link.</p>
+<p>@Simon7</p>
+<blockquote><p>An integration for TinyMCE would be great.</p></blockquote>
+<p>Although I probably won&#8217;t be working on anything like that any time soon, someone else here might want to take up the challenge. What, specifically, would you like it to do?</p>
+<p>@chris</p>
+<blockquote><p>I’m testing the SLIR beta version (SLIR v 2.0b2), and it’s working great except that the first time I request an image configuration, it returns blank, with no errors. If I reload the page, the image appears.</p></blockquote>
+<p>I believe that is a problem with SLIR and I most likely have fixed it in the SVN. <a href="http://code.google.com/p/smart-lencioni-image-resizer/source/checkout" rel="nofollow">Try checking out the latest version from the repository</a> and let me know if it starts working as expected. Please note that the changes that are in SVN will most likely require a lot more server resources when cropping, especially if the final image is large.</p>
+<p>@Charles</p>
+<blockquote><p>One question…does it take significantly longer or is it much more intensive on the script to size, say, an 800px x 800px image down to 200×200, vs a 600×600.<br />
+How much does it matter to the script how large the original image is in sizing it down?</p></blockquote>
+<p>It will definitely take longer and it is more intensive on the script to size an 800&#215;800 to a 200&#215;200 vs a 600&#215;600 to a 200&#215;200 image. It will, however, only perform the resize once for each image and then it is cached so the additional impact should be minimal over time.</p>
+<p>As far as specifically how much more intensive it is, I am not sure. The most intensive parts of the script are resizing, sharpening, and cropping. Since the final image in your test case is 200&#215;200, sharpening and cropping should be about the same in both situations, so resizing is the greatest variable. The script uses PHP&#8217;s <code><a href="http://us2.php.net/imagecopyresampled" rel="nofollow">imagecopyresampled()</a></code> function if you care to investigate further. Or, you could try a PHP profiler such as <a href="http://www.xdebug.org/" rel="nofollow">Xdebug</a>.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1789">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/8a371f365f4f78bdecaa36c010337672?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Cory Burke</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1789" rel="bookmark" title=""><abbr class="published updated" title="2009-06-02T23:45:26Z">June 2nd, 2009 at 11:45 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Hello, I&#8217;ve been using this script, but like others &#8211; have issue with the harshness of the sharpening matrix. </p>
+<p>Someone in this thread attempted to create a modification which included an additional filter called &#8220;slevel&#8221; to modify the sharpening amount. </p>
+<p>That modification appears to no longer be available. Do you have any suggestion and or comment regarding adjusting of the level of sharpening in your script?</p>
+<p>Thanks a lot! Your script is fantastic but is sharpening too much for my images presently!</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1792">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/b1fde23f3b2714b7de336a9dcd6bc4f6?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://abcoder.com/' rel='external nofollow' class='url'>adnan</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1792" rel="bookmark" title=""><abbr class="published updated" title="2009-06-06T12:32:43Z">June 6th, 2009 at 12:32 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>What is new in your script compared to phpThumb? Do you have any comparison chart? I&#8217;ve not tried it yet, but I guess it may not work with corrupted images. I have very bad experience with resizing corrupted image.</p>
+<p>You may have a look at <a href="http://abcoder.com/php/problem-with-resizing-corrupted-images-using-php-image-functions/" title="Problem with resizing corrupted images using PHP image functions" rel="nofollow">Problem with resizing corrupted images using PHP image functions</a></p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1794">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/81ce06ca78b520e65bc9e5196131ce43?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Rifath</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1794" rel="bookmark" title=""><abbr class="published updated" title="2009-06-09T04:17:27Z">June 9th, 2009 at 4:17 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>When i try this code. i m getting this error.. any body help me on this</p>
+<p>Warning: imagecreatetruecolor() [function.imagecreatetruecolor]: Invalid image dimensions in /home/jooryfas/public_html/image.php on line 249</p>
+<p>Warning: imagecopyresampled(): supplied argument is not a valid Image resource in /home/jooryfas/public_html/image.php on line 308</p>
+<p>Fatal error: Call to undefined function: imageconvolution() in /home/jooryfas/public_html/image.php on line 324</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1795">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/526006bc363968ab8c0e9c9449f291f4?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Sarah</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1795" rel="bookmark" title=""><abbr class="published updated" title="2009-06-09T11:39:00Z">June 9th, 2009 at 11:39 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>This is going to save me a ton of time on a project I am working on right now. Thank you!</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1797">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/2864beebf21db1c1e81cb9044febfa53?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Joe Lencioni</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1797" rel="bookmark" title=""><abbr class="published updated" title="2009-06-14T10:46:17Z">June 14th, 2009 at 10:46 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>@Cory Burke</p>
+<blockquote><p>Do you have any suggestion and or comment regarding adjusting of the level of sharpening in your script?</p></blockquote>
+<p>Although I am not sure of what you would need to specifically do to adjust the level of sharpening, you should probably look at lines 310&ndash;325 and 369&ndash;379 in v1.4.1</p>
+<p>@adnan</p>
+<blockquote><p>What is new in your script compared to phpThumb? Do you have any comparison chart?</p></blockquote>
+<p>I&#8217;m not sure, I&#8217;ve never really looked at phpThumb.</p>
+<blockquote><p>I guess it may not work with corrupted images.</p></blockquote>
+<p>I am betting you are correct.</p>
+<blockquote><p>You may have a look at Problem with resizing corrupted images using PHP image functions</p></blockquote>
+<p>After reading that article and poking around, I believe phpThumb can be configured to use ImageMagick, which may be a little more flexible and robust than GD.</p>
+<p>@Rifath</p>
+<blockquote><p>Warning: imagecreatetruecolor() [function.imagecreatetruecolor]: Invalid image dimensions in /home/jooryfas/public_html/image.php on line 249</p>
+<p>Warning: imagecopyresampled(): supplied argument is not a valid Image resource in /home/jooryfas/public_html/image.php on line 308</p></blockquote>
+<p>It is hard to say what is going on without more information. However, it looks like you may be trying to resize an unsupported type of image. Perhaps it is corrupted or saved in a weird format.</p>
+<blockquote><p>Fatal error: Call to undefined function: imageconvolution() in /home/jooryfas/public_html/image.php on line 324</p></blockquote>
+<p>This means that you don&#8217;t have the <code>imageconvolution()</code> function in your copy of PHP. According to <a href="http://us3.php.net/manual/en/function.imageconvolution.php" rel="nofollow">the PHP documentation</a>, <code>imageconvolution()</code> &#8220;is only available if PHP is compiled with the bundled version of the GD library.&#8221;</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1799">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=86' class='avatar avatar-86 photo avatar-default' height='86' width='86' />			<cite class="entry-title author"><a href='http://www.cruzweb.net/2009/06/15/lack-of-updates-courtesy-of-php-security-issues/' rel='external nofollow' class='url'>Lack of updates courtesy of PHP security issues</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1799" rel="bookmark" title=""><abbr class="published updated" title="2009-06-15T19:59:48Z">June 15th, 2009 at 7:59 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>[...] image cache so that it wouldn&#8217;t be ridiculously slow every time it was run. It&#8217;s called Smart Image Resizer from Shifting Pixel. I was excited and decided to test [...]</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1800">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=86' class='avatar avatar-86 photo avatar-default' height='86' width='86' />			<cite class="entry-title author"><a href='http://wpkode.com/archives/25' rel='external nofollow' class='url'>Use a thumbnail (or feature image) for your post automatically | WP Kode</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1800" rel="bookmark" title=""><abbr class="published updated" title="2009-06-15T23:34:45Z">June 15th, 2009 at 11:34 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>[...] this, I usually use a script such as Smart Image Resizer working together with the following code in my funtions.php [...]</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1801">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/cb00d290f9a0bbbbee82e41b9b62a8f7?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://luciorota.altervista.org/' rel='external nofollow' class='url'>luciorota</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1801" rel="bookmark" title=""><abbr class="published updated" title="2009-06-17T08:53:00Z">June 17th, 2009 at 8:53 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Here an improoved version<br />
+<a href="http://luciorota.altervista.org/xoops/modules/wfdownloads/singlefile.php?cid=2&#038;lid=13" rel="nofollow">http://luciorota.altervista.org/xoops/modules/wfdownloads/singlefile.php?cid=2&#038;lid=13</a></p>
+<p>now is possible to apply filters to images (experimental)</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1803">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/5e85655a3aff8e13a589241510066faf?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://www.kjksnapshots.com/photos/readdir.php?dir=MLS894' rel='external nofollow' class='url'>Eric</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1803" rel="bookmark" title=""><abbr class="published updated" title="2009-06-20T14:34:50Z">June 20th, 2009 at 2:34 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>The script seems to be working great except for one thing &#8230; when I try to resize to a 3000x 2000 size.  I want to provide an option to resize the file into 4 different sizes:<br />
+3000 x 2000<br />
+800 x 600<br />
+480 x 340<br />
+540 x 360</p>
+<p>The code is the same for each (except for the width/height and cropration) yet the 3000 x 2000 doesn&#8217;t output (though it appears to think awhile.</p>
+<p>Any ideas?</p>
+<p>Here&#8217;s the specific code line:<br />
+&#8220;;</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1805">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=86' class='avatar avatar-86 photo avatar-default' height='86' width='86' />			<cite class="entry-title author"><a href='http://www.designedbysarah.com/blog/?p=21' rel='external nofollow' class='url'>Image Resizing Script &laquo; Designed by Sarah</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1805" rel="bookmark" title=""><abbr class="published updated" title="2009-06-20T17:37:33Z">June 20th, 2009 at 5:37 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>[...] I know you want it. Here is where you get it: Shifting Pixel Smart Image Resizer. [...]</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1809">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/606bd9e0abcec92e5f86c8f183e7ae68?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Chris</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1809" rel="bookmark" title=""><abbr class="published updated" title="2009-06-23T19:46:58Z">June 23rd, 2009 at 7:46 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p><cite>@chris</p>
+<p></cite><cite>I’m testing the SLIR beta version (SLIR v 2.0b2), and it’s working great except that the first time I request an image configuration, it returns blank, with no errors. If I reload the page, the image appears.</cite></p>
+<p>I believe that is a problem with SLIR and I most likely have fixed it in the SVN. Try checking out the latest version from the repository and let me know if it starts working as expected. Please note that the changes that are in SVN will most likely require a lot more server resources when cropping, especially if the final image is large.</p>
+<p>@Joe</p>
+<p>It&#8217;s working great now with the new version, thanks!</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1811">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=86' class='avatar avatar-86 photo avatar-default' height='86' width='86' />			<cite class="entry-title author"><a href='http://q4news.com/2009/06/26/spectre-portfolio/' rel='external nofollow' class='url'>Spectre (Portfolio) | Quest For News, A TUTORIAL Base</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html#comment-1811" rel="bookmark" title=""><abbr class="published updated" title="2009-06-26T10:41:40Z">June 26th, 2009 at 10:41 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>[...] uses Joe Lencioni&#8217;s Smart Image Resizer script for resizing the images used in the featured posts showcase and in archive listings. Smart [...]</p>
+					</div>
+	</li>
+		</li>
+ </ol>
+ 
+ <div class="metaGutter">&nbsp;</div>
+ <div class="postBody navigation">
+  <a class="prev page-numbers" href="../comment-page-5/index.html#comments">&laquo; Previous</a>
+<a class='page-numbers' href='../comment-page-1/index.html#comments'>1</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class='page-numbers' href='../comment-page-4/index.html#comments'>4</a>
+<a class='page-numbers' href='../comment-page-5/index.html#comments'>5</a>
+<span class='page-numbers current'>6</span>
+<a class='page-numbers' href='../comment-page-7/index.html#comments'>7</a>
+<a class='page-numbers' href='../comment-page-8/index.html#comments'>8</a>
+<a class="next page-numbers" href="../comment-page-7/index.html#comments">Next &raquo;</a> 
+ </div>
+
+
+</div> <!-- #comments -->
+
+<div class="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-1559564011388652";
+/* Comments leaderboard */
+google_ad_slot = "0757537148";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+</div> <!-- #commentsWrapper -->
+<hr /><div class="clearer">&nbsp;</div>	
+<div id="footerWrapper">
+<div id="footer">	<div id="leftSidebar">
+	    	  
+    	        <h2>Must See</h2>
+        <div class="smallblocks clearfix"><span class="photo"><a href="../../../../../index.html?p=315" title="Swanson Tennis Center 1"><img src="../../../../../slir/w86-h86-c1:1/wp-content/uploads/2008/05/swanson-tennis-center-1.jpg" alt="Swanson Tennis Center 1" title="Swanson Tennis Center 1" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="../../../../../index.html?p=75" title="chairs 3"><img src="../../../../../slir/w86-h86-c1:1/wp-content/uploads/2006/05/crw_6246.jpg" alt="chairs 3" title="chairs 3" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="../../../../../index.html?p=418" title="Unicycle 4"><img src="../../../../../slir/w86-h86-c1:1/wp-content/uploads/2008/05/unicycle-4.jpg" alt="Unicycle 4" title="Unicycle 4" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="../../../../../index.html?p=895" title="Minimalism 17"><img src="../../../../../slir/w86-h86-c1:1/wp-content/uploads/2008/03/minimalism-17.jpg" alt="Minimalism 17" title="Minimalism 17" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="../../../../../index.html?p=25" title="Basement 1"><img src="../../../../../slir/w86-h86-c1:1/wp-content/uploads/2008/05/basement-1.jpg" alt="Basement 1" title="Basement 1" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="../../../../../index.html?p=803" title="The Lonely Tree"><img src="../../../../../slir/w86-h86-c1:1/wp-content/uploads/2007/10/the-lonely-tree.jpg" alt="The Lonely Tree" title="The Lonely Tree" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="../../../../../index.html?p=686" title="Cappuccino"><img src="../../../../../slir/w86-h86-c1:1/wp-content/uploads/2007/04/cappuccino1.jpg" alt="Cappuccino" title="Cappuccino" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="../../../../../index.html?p=559" title="Grey nurse shark"><img src="../../../../../slir/w86-h86-c1:1/wp-content/uploads/2008/05/grey-nurse-shark.jpg" alt="Grey nurse shark" title="Grey nurse shark" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="../../../../../index.html?p=149" title="olin-hall-diptych"><img src="../../../../../slir/w86-h86-c1:1/wp-content/uploads/2009/03/olin-hall-diptych.jpg" alt="olin-hall-diptych" title="olin-hall-diptych" width="86" height="86" /></a></span>
+</div><!-- Random Posts took 37.418 ms -->        <p class="clearfix"><small><a href="../../../../../category/photos/portfolio.1">Browse all &ldquo;Must see&rdquo; photos</a></small></p>
+				
+    </div>
+
+<div id="rightSidebar">
+     		<div id="popularPosts">
+            <h2>Latest Photos</h2>
+			<div class="smallblocks clearfix">
+            <span class="photo"><a href="../../../../../index.html?p=1807" title="Air Ship Rail"><img src="../../../../../slir/w86-h86-c1:1/wp-content/uploads/2011/04/IMG_3536.jpg" alt="Air Ship Rail" title="Air Ship Rail" width="86" height="86" /></a></span><span class="photo"><a href="../../../../../index.html?p=1803" title="Vines reaching out"><img src="../../../../../slir/w86-h86-c1:1/wp-content/uploads/2011/04/IMG_3534.jpg" alt="Vines reaching out" title="Vines reaching out" width="86" height="86" /></a></span><span class="photo"><a href="../../../../../index.html?p=1799" title="Buildingtops"><img src="../../../../../slir/w86-h86-c1:1/wp-content/uploads/2011/04/IMG_3530.jpg" alt="Buildingtops" title="Buildingtops" width="86" height="86" /></a></span><span class="photo"><a href="../../../../../index.html?p=1794" title="505"><img src="../../../../../slir/w86-h86-c1:1/wp-content/uploads/2011/04/IMG_3526.jpg" alt="505" title="505" width="86" height="86" /></a></span><span class="photo"><a href="../../../../../index.html?p=1790" title="Intersecting parking spots"><img src="../../../../../slir/w86-h86-c1:1/wp-content/uploads/2011/04/IMG_3521.jpg" alt="Intersecting parking spots" title="Intersecting parking spots" width="86" height="86" /></a></span><span class="photo"><a href="../../../../../index.html?p=1784" title="Everywhere"><img src="../../../../../slir/w86-h86-c1:1/wp-content/uploads/2011/04/IMG_3501.jpg" alt="Everywhere" title="Everywhere" width="86" height="86" /></a></span><div class="small"><span class="photo"><a href="../../../../../index.html?p=1777" title="Welcome"><img src="../../../../../slir/w38-h38-c1:1/wp-content/uploads/2011/04/IMG_3499.jpg" alt="Welcome" title="Welcome" width="38" height="38" /></a></span><span class="photo"><a href="../../../../../index.html?p=1765" title="Hubcap clocks"><img src="../../../../../slir/w38-h38-c1:1/wp-content/uploads/2010/09/1283633957305.jpg" alt="Hubcap clocks" title="Hubcap clocks" width="38" height="38" /></a></span><span class="photo"><a href="../../../../../index.html?p=1763" title="4-H Building"><img src="../../../../../slir/w38-h38-c1:1/wp-content/uploads/2010/09/1283625129908.jpg" alt="4-H Building" title="4-H Building" width="38" height="38" /></a></span><span class="photo"><a href="../../../../../index.html?p=1756" title="Christ Chapel at Gustavus"><img src="../../../../../slir/w38-h38-c1:1/wp-content/uploads/2010/09/4910525011_081590f1f6_o.jpg" alt="Christ Chapel at Gustavus" title="Christ Chapel at Gustavus" width="38" height="38" /></a></span><span class="photo"><a href="../../../../../index.html?p=1753" title="Tomatoes and Peppers"><img src="../../../../../slir/w38-h38-c1:1/wp-content/uploads/2010/09/4915226332_a849178930_o.jpg" alt="Tomatoes and Peppers" title="Tomatoes and Peppers" width="38" height="38" /></a></span><span class="photo"><a href="../../../../../index.html?p=1748" title="Coca-Cola Mural"><img src="../../../../../slir/w38-h38-c1:1/wp-content/uploads/2010/09/4928545472_7139133c14_o.jpg" alt="Coca-Cola Mural" title="Coca-Cola Mural" width="38" height="38" /></a></span><span class="photo"><a href="../../../../../index.html?p=1744" title="Saint Peter Water Tower"><img src="../../../../../slir/w38-h38-c1:1/wp-content/uploads/2010/09/4950146640_4fa26d553c_o.jpg" alt="Saint Peter Water Tower" title="Saint Peter Water Tower" width="38" height="38" /></a></span><span class="photo"><a href="../../../../../index.html?p=1740" title="Canned Grape Jelly"><img src="../../../../../slir/w38-h38-c1:1/wp-content/uploads/2010/09/4918682700_a0363a2bcb_o.jpg" alt="Canned Grape Jelly" title="Canned Grape Jelly" width="38" height="38" /></a></span><span class="photo"><a href="../../../../../index.html?p=1731" title="Canning Grape Jelly"><img src="../../../../../slir/w38-h38-c1:1/wp-content/uploads/2010/09/4918079385_e278c095f4_o.jpg" alt="Canning Grape Jelly" title="Canning Grape Jelly" width="38" height="38" /></a></span><span class="photo"><a href="../../../../../index.html?p=1662" title="starburst"><img src="../../../../../slir/w38-h38-c1:1/wp-content/uploads/2010/01/starburst.jpg" alt="starburst" title="starburst" width="38" height="38" /></a></span><span class="photo"><a href="../../../../../index.html?p=1665" title="luna-moth-matrix"><img src="../../../../../slir/w38-h38-c1:1/wp-content/uploads/2010/01/luna-moth-matrix.jpg" alt="luna-moth-matrix" title="luna-moth-matrix" width="38" height="38" /></a></span><span class="photo"><a href="../../../../../index.html?p=1675" title="gustavus-adolphus-2"><img src="../../../../../slir/w38-h38-c1:1/wp-content/uploads/2010/01/gustavus-adolphus-2.jpg" alt="gustavus-adolphus-2" title="gustavus-adolphus-2" width="38" height="38" /></a></span>			</div>
+			</div>
+        </div>
+    
+        <div id="latestPosts">
+            <h2>Latest Articles</h2>
+            <ol>
+            				<li><a href="../../../../../index.html?p=1063" rel="bookmark" title="Permanent Link to Greased Lightbox v0.18">Greased Lightbox v0.18</a></li>
+								<li><a href="../../../../../index.html?p=1039" rel="bookmark" title="Permanent Link to L.A. Trip Winners">L.A. Trip Winners</a></li>
+								<li><a href="../../../../../index.html?p=1014" rel="bookmark" title="Permanent Link to Win a Trip to a Spike Lee Movie Premiere in L.A.">Win a Trip to a Spike Lee Movie Premiere in L.A.</a></li>
+								<li><a href="../../../../../index.html?p=997" rel="bookmark" title="Permanent Link to Three Years">Three Years</a></li>
+							</ol>
+			
+						<h2>Popular</h2>
+			<ul><li><a href="../../../../../index.html?p=345" rel="bookmark" title="May 3, 2006">Holga of record player</a></li>
+
+<li><a href="../../../../../index.html?p=603" rel="bookmark" title="January 25, 2007">Tongue</a></li>
+
+<li><a href="../../../../../index.html?p=547" rel="bookmark" title="November 9, 2006">Sufjan Stevens playing guitar</a></li>
+
+<li><a href="../../../../../index.html?p=896" rel="bookmark" title="March 3, 2008">Smart Image Resizer</a></li>
+</ul><!-- Random Posts took 5.910 ms -->			        </div>
+    	<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer"></div>
+	<div class="clearer">&nbsp;</div>	
+</div>
+</div>
+
+<hr />
+
+<div id="copyrightWrapper">
+<div id="copyright">
+    <p id="copyrightNotice"><small>Copyright &copy; 2005&ndash;11 <a href="mailto:joe@shiftingpixel.com">Joe Lencioni</a></small></p>
+
+	<div id="creativeCommons">
+		<!-- Creative Commons License -->
+		<p><small>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/">Creative Commons Attribution-NonCommercial-ShareAlike 2.5&nbsp;License</a>. <a href="../../../../../attribution-requirements/index.html">Attribution requirements for my work</a>.</small></p>
+		<!-- /Creative Commons License -->
+	</div>
+    
+    <p id="footerLogo"><a href="../../../../../index.html" title="Return to the homepage"><img src="http://shiftingpixel.com/wp-content/themes/shifting2/images/camera-logo-small.png" width="70" height="53" alt="Shifting Pixel logo" /></a></p>
+    
+    <div class="noscreen">
+        <address id="hcard-Joe-Lencioni" class="vcard">
+        <a class="url fn" href="../../../../../index.html">Joe Lencioni</a>
+        <span class="org">Shifting Pixel</span>
+        <a class="email" href="mailto:joe@shiftingpixel.com">joe@shiftingpixel.com</a>
+        <span class="adr">
+            <span class="locality">Saint Peter</span>, <span class="region">Minnesota</span>, <span class="postal-code">56082</span>
+            <span class="country-name">United States of America</span>
+        </span>
+        </address>
+    </div>
+	
+	<!--
+		
+	<rdf:RDF xmlns="http://web.resource.org/cc/"
+		xmlns:dc="http://purl.org/dc/elements/1.1/"
+		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<Work rdf:about="">
+	   <dc:creator><Agent>
+		  <dc:title>Joe Lencioni</dc:title>
+	   </Agent></dc:creator>
+	   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+	   <dc:source rdf:resource="http://shiftingpixel.com"/>
+	   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/" />
+	</Work>
+	
+	<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/">
+	   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+	   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+	   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+	   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+	   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+	   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+	   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+	</License>
+	
+	</rdf:RDF>
+		
+	-->
+
+	<!-- 124 queries. 0.339 seconds. -->
+	
+	<div class="clearer"></div>
+</div>
+</div><script type='text/javascript' src='http://api.flattr.com/js/0.6/load.js?mode=auto&#038;ver=0.6'></script>
+</body>
+</html>

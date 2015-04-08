@@ -1,0 +1,758 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="microid" content="mailto+http:sha1:6faf383e2bd5834b9143add400ece28347ba1be9" />
+
+<title>New design, now WordPress - Shifting Pixel</title>
+
+<meta name="generator" content="WordPress 3.3" /> <!-- leave this for stats -->
+
+<link rel="stylesheet" href="http://static.shiftingpixel.com/wp-content/themes/shifting2/style.css" type="text/css" media="screen" />
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" href="http://shiftingpixel.com/wp-content/themes/shifting2/style-IE6.css" media="screen" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="http://shiftingpixel.com/wp-content/themes/shifting2/style-IE7.css" media="screen" />
+<![endif]-->
+
+<link rel="favicon" href="favicon.ico" />
+<link rel="shortcut icon" href="favicon.ico" />
+
+<link rel="alternate" type="application/rss+xml" title="Shifting Pixel &raquo; New design, now WordPress Comments Feed" href="2006/05/21/new-design-now-wordpress/feed/index.html" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://shiftingpixel.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Missy Mills&#8217; Eclectic World' href='index.html?p=363' />
+<link rel='next' title='Alli Stocco&#8217;s Little Book' href='index.html?p=375' />
+<meta name="generator" content="WordPress 3.3" />
+<link rel='canonical' href='index.html?p=373' />
+<link rel='shortlink' href='index.html?p=373' />
+
+<script type="text/javascript" src="http://static.shiftingpixel.com/wp-content/themes/shifting2/scripts.js"></script> 
+</head>
+<body class="post373">
+<!-- ukey="6933AB70" -->
+
+
+<div id="headerWrapper">
+<div id="header">
+	<p id="logo"><a href="index.html" title="Return to the homepage">Shifting Pixel</a></p>
+        
+    <!--<p id="associationWith"><a href="http://9rules.com" title="A proud member of the 9rules Network">In association with 9rules Network</a></p>-->
+	
+	<div id="navigation">
+		<ul>
+			<li id="archives"><a href="archives/index.html">Archives</a></li>
+			<li id="about"><a href="about/index.html">About</a></li>
+			<li id="downloads"><a href="download/index.html">Downloads</a></li>
+		</ul>
+	</div>
+	
+	<form name="cse" id="searchForm" action="https://www.google.com/search">
+  <div>
+  <input type="hidden" name="sitesearch" value="shiftingpixel.com" />
+  <input name="q" type="text" id="searchTerms" />
+  <input type="submit" id="searchSubmit" value="Search" />
+  </div>
+</form>
+	
+	<!--[if lt IE 7]>
+	<div id="upgradeYourBrowser">
+		<h1><strong>Please</strong> upgrade your browser.</h1>
+		<p><strong>Everything</strong> will be better if you use <a href="http://www.spreadfirefox.com/?q=affiliates&amp;id=38695">Firefox</a>, <a href="http://opera.com">Opera</a>, or <a href="http://www.google.com/chrome">Google Chrome</a>. They are <strong>entirely free</strong> and it only takes a minute to download and install.</p>
+	</div>
+	<![endif]-->
+
+	<div class="clearer"></div>
+</div>
+</div>
+
+<hr />
+
+<div id="browsingNavigation">
+<div id="previousPost">
+<a href="index.html?p=363"><span class="photo"><img src="slir/w86-h86-c1:1/wp-content/uploads/2006/05/crw_9031.jpg" alt="Missy Mills' Eclectic World" title="Missy Mills' Eclectic World" width="86" height="86" /></span> Missy Mills' Eclectic World</a></div>
+
+<div id="nextPost">
+<a href="index.html?p=375"><span class="photo"><img src="slir/w86-h86-c1:1/wp-content/uploads/2006/05/crw_9021.jpg" alt="Alli Stocco's Little Book" title="Alli Stocco's Little Book" width="86" height="86" /></span> Alli Stocco's Little Book</a></div>
+</div>
+<div class="clearer"></div>
+<div id="content" class="hfeed">
+  <div id="pageContent">
+        <div class="post" id="post-373">
+      <div class="postTop">
+        <h1 class="postTitle"><a href="index.html?p=373" rel="bookmark" class="entry-title">
+          New design, now WordPress          </a><span class="noscreen author vcard"> by <cite><a class="url fn" href="http://joelencioni.com">
+          Joe Lencioni          </a></cite></span></h1>
+        <abbr class="postMeta published updated" title="2006-05-21T23:19:14Z"> <span class="postDate">
+        May 21, 2006        </span> </abbr> by <a href="http://joelencioni.com" title="Visit Joe Lencioni&#8217;s website" rel="external author">Joe Lencioni</a> </div>            <div class="clearer"></div>
+      <div class="metaGutter">
+        				<div class="related_posts"><h4>Similar posts</h4><ul
+class="related_post"><li><a href="index.html?p=624" rel="bookmark" title="February 10, 2007">Redesign</a></li>
+</ul></div><!-- Similar Posts took 21.687 ms -->				
+		
+              </div>
+      <div class="postBody entry-content">
+        <script type="text/javascript"><!--
+google_ad_client = "pub-1559564011388652";
+/* 468x60, created 4/30/08 */
+google_ad_slot = "7494546370";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+        <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+        <p class="leadin">I was sick of getting a ton of spam on my blog, so I spent the good part of the weekend ditching <a href="http://pixelpost.org">Pixelpost</a> and upgrading to <a href="http://wordpress.org">WordPress</a> for my blogging software because of the prepackaged <a href="http://akismet.com/">Akismet spam filtering plugin</a>. And while I was at it, I figured I would do a redesign. I hope you like it.</p>
+<p>There were a few bumps along the way, but things mostly went really well. My first step was writing an import plugin for WordPress that would grab all of my stuff from Pixelpost. It was weird that I didn&#8217;t find that anyone else had already written one. Once I had most of the kinks ironed out from that, the rest was a piece of cake.</p>
+<p>Along with this redesign/switchover to WordPress, I have some new features and some new capabilities that are all built into WordPress. You can now subscribe to RSS feeds of comments for each entry and for individual categories. There is also search now. That&#8217;s pretty cool. Finally, I will be able to post entries, like this one, that do not have a photo. That way, when I have some news that isn&#8217;t related to a photo, I can post it separately. It&#8217;ll be easier to find and better for everybody.</p>
+<p>I&#8217;ll be ironing out the kinks over the next week or so as they come up. If you notice anything funny, please let me know.</p>
+<p><del datetime="2006-05-23T03:24:54+00:00"><strong>Edit:</strong> If you are a RSS user and are wondering where all of the images went, hang tight. I am working on getting something in there.</del> Feeds now have images!</p>
+              </div>
+      <div class="clearer"></div>
+            <div class="clearer"></div>
+    </div>
+
+    <!--
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/"
+    dc:identifier="http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/"
+    dc:title="New design, now WordPress"
+    trackback:ping="http://shiftingpixel.com/2006/05/21/new-design-now-wordpress/trackback/" />
+</rdf:RDF>    -->
+
+      </div>
+</div>
+<hr />
+
+<div id="commentsWrapper" class="hfeed">
+<div id="comments">
+
+<h2 id="commentsTitle"><a name="comments">28 Comments</a></h2>
+
+<div class="metaGutter">&nbsp;</div>
+ <div class="postBody navigation">
+   
+ </div>
+ 
+ <ol class="commentList clearfix">
+  	<li class="hentry clearfix" id="comment-561">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/9af5b1618925f78b1147b014346b65fb?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://mariusmuscalu.com' rel='external nofollow' class='url'>Marius Muscalu</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-561" rel="bookmark" title=""><abbr class="published updated" title="2006-05-22T08:57:37Z">May 22nd, 2006 at 8:57 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>I also have tons of spam but i don&#8217;t think i will go with wordpress&#8230;</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-562">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/2864beebf21db1c1e81cb9044febfa53?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='index.html' rel='external nofollow' class='url'>Joe Lencioni</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-562" rel="bookmark" title=""><abbr class="published updated" title="2006-05-22T10:20:15Z">May 22nd, 2006 at 10:20 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Marius, I&#8217;m just curious how come not wordpress? Are you thinking of switching? What would you switch to?</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-563">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/b27e51df90e2a7680a31c586f71dda1e?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://photos.dontcom.com' rel='external nofollow' class='url'>Darren Wood</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-563" rel="bookmark" title=""><abbr class="published updated" title="2006-07-29T16:47:36Z">July 29th, 2006 at 4:47 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Hi,</p>
+<p>I&#8217;m planning on moving over to wordpress from pixelpost.  I dont s&#8217;pose you&#8217;d be willing to share the import script you wrote?  I&#8217;m not of geek persuasion so find MySQL and php a little tricky.</p>
+<p>Cheers<br />
+D</p>
+					</div>
+	</li>
+			<li class="clearfix">
+			<div class="metaGutter">&nbsp;</div>
+			<div class="postBody">
+			<script type="text/javascript"><!--
+			google_ad_client = "pub-1559564011388652";
+			/* Comments */
+			google_ad_slot = "9268941540";
+			google_ad_width = 468;
+			google_ad_height = 60;
+			//-->
+			</script>
+			<script type="text/javascript"
+			src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+			</script>
+			</div>
+		</li>
+		</li>
+	<li class="hentry clearfix" id="comment-564">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/2864beebf21db1c1e81cb9044febfa53?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='index.html' rel='external nofollow' class='url'>Joe Lencioni</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-564" rel="bookmark" title=""><abbr class="published updated" title="2006-07-31T10:27:12Z">July 31st, 2006 at 10:27 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Darren, I will share my import script with you, but I have to warn you that it\&#8217;s not perfect. There are a few more things that I would have liked for it to do (like update internal links), but it gets the job done. <a href="downloads/wp_pixelpost_import.zip" rel="nofollow" rel="nofollow">Download the Pixelpost to WordPress import script</a>.</p>
+<p>Also, just a warning but this has a fair chance of messing up all of your stuff. Use it with caution. Additionally, I wrote this to import from Pixelpost 1.4.2. I don\&#8217;t know if it works with any other versions. Let me know if you are using a different version and if it works with that.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-565">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/bbbf27a905310232d10a3cc104690148?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://sharlunika.com/photolunia/' rel='external nofollow' class='url'>Sharlune</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-565" rel="bookmark" title=""><abbr class="published updated" title="2006-08-14T06:08:47Z">August 14th, 2006 at 6:08 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>I had the same problem with PixelPost so I moved to WP,too. I used your import plug-in, and it worked good. Of course I had to add code for images and their thumbnails manually.<br />
+Thanks a lot.<br />
+anyway, your link to it in your comment is wrong. Also if you want to share it with others maybe you&#8217;d better write that they should put it their &#8216;import&#8217; folder in their &#8216;wo-admin&#8217;, and also make a writable upload folder before they use import pixelpost.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-566">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=86' class='avatar avatar-86 photo avatar-default' height='86' width='86' />			<cite class="entry-title author"><a href='index.html?p=624' rel='external nofollow' class='url'>Redesign - Shifting Pixel</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-566" rel="bookmark" title=""><abbr class="published updated" title="2007-02-10T00:35:24Z">February 10th, 2007 at 12:35 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>[...] Tonight I finally put the new design for Shifting Pixel that I&#8217;ve been banging out for the past few weeks and retiring a good design that I&#8217;ve had up since May. [...]</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-567">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/9af5b1618925f78b1147b014346b65fb?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://mariusmuscalu.com/' rel='external nofollow' class='url'>Marius Muscalu</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-567" rel="bookmark" title=""><abbr class="published updated" title="2007-06-11T08:53:59Z">June 11th, 2007 at 8:53 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p> <img src='http://shiftingpixel.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />  I want to get wordpress but I&#8217;m afraid not to mess up my photoblog&#8230; I want wordpress because I want to use it with my flickr account&#8230;</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-571">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/2bd145d1749b79a2ab628ce639400826?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://talkingtree.org/photoblog/' rel='external nofollow' class='url'>Nathan Cowlishaw</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-571" rel="bookmark" title=""><abbr class="published updated" title="2007-09-12T11:40:43Z">September 12th, 2007 at 11:40 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>I&#8217;d like to use you&#8217;re import plugin to get my photos out of PixelPost into a WordPress Installation. I&#8217;ve seen the YAFB Plugin that compliment Pixelpost, and I&#8217;d like to use your script. I&#8217;m not sure it will work with Pixelpost 1.6. I&#8217;m kinda scared to even try using your download. What do you think? How&#8217;s wordpress working for you?</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-572">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/2864beebf21db1c1e81cb9044febfa53?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='index.html' rel='external nofollow' class='url'>Joe Lencioni</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-572" rel="bookmark" title=""><abbr class="published updated" title="2007-09-12T12:52:51Z">September 12th, 2007 at 12:52 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>@Nathan: WordPress is working very well for me. I like pretty much everything about it more than PixelPost. I do, however, have a lot of programming ability and have been able to tweak and write things as I want to make it work exactly the way I want it to.</p>
+<p>As for the import script, use it at your own risk. It was something I whipped up a long time ago in a hurry to easily migrate as much as possible. There are a lot of ways it could be improved and it may not even work with the current versions of PP and WP.</p>
+<p>If you do end up using it, you should leave a comment with any notes you have from your migration. If you have any improvements or updates, to the script, please send them along and I will incorporate them when I get time.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-573">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/91aea38ef8c55a834c6b5347ec01fa88?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://decodesignart.com/' rel='external nofollow' class='url'>Lilia</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-573" rel="bookmark" title=""><abbr class="published updated" title="2007-10-24T10:52:34Z">October 24th, 2007 at 10:52 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>You made a very good decision<br />
+My Askimet get 100 spam daily on WordPress<br />
+I do not know what I would do without it !!!</p>
+<p>Very nice pink site indeed <img src='http://shiftingpixel.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-568">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/d8ff322655e38a0c35ee7c3cd955d70c?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">S</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-568" rel="bookmark" title=""><abbr class="published updated" title="2007-12-10T13:08:04Z">December 10th, 2007 at 1:08 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Where exactly do you run the import script?  As a wp plugin?  As a pixelpost addon?</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-569">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/2864beebf21db1c1e81cb9044febfa53?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='index.html' rel='external nofollow' class='url'>Joe Lencioni</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-569" rel="bookmark" title=""><abbr class="published updated" title="2007-12-10T13:14:55Z">December 10th, 2007 at 1:14 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>@S: Actually you put it in the directory with the other WordPress import scripts (which I believe is in /wp-admin/import) and then in your WordPress installation, you need to log in and click on "Manage" and then "Import."</p>
+<p>I hope that helps. <img src='http://shiftingpixel.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-570">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/d8ff322655e38a0c35ee7c3cd955d70c?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://sekimori.org' rel='external nofollow' class='url'>S</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-570" rel="bookmark" title=""><abbr class="published updated" title="2007-12-10T13:25:25Z">December 10th, 2007 at 1:25 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Very good!  Works fine from ver. 1.6.  Now for the tedious process of reuploading images.  Thanks!</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-574">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/a450c1580256f77a9fbd522aacba42ae?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://www.pixelgrain.org' rel='external nofollow' class='url'>PIXELGRAIN</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-574" rel="bookmark" title=""><abbr class="published updated" title="2008-03-19T14:34:10Z">March 19th, 2008 at 2:34 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Hey there&#8230;. I&#8217;ve been enjoying your images for some time now, so I was pleased to see your name show up as I&#8217;m looking to see if it might be smart to move over to WordPress from Pixelpost.</p>
+<p>I&#8217;ve got a fair amount of php knowledge, so I think I can make the transition, but I wanted to ask&#8230;. Was it definitely the right decision?  Did you have any trouble with your RSS feeds?  Did you manage to get the urls of old images to remain the same?</p>
+<p>I&#8217;m curious, because it seems like a smart move, but I REALLY don&#8217;t want to kill my rankings&#8230;</p>
+<p>Keep up the good work..</p>
+<p>Ryan</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-576">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/2864beebf21db1c1e81cb9044febfa53?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='index.html' rel='external nofollow' class='url'>Joe Lencioni</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-576" rel="bookmark" title=""><abbr class="published updated" title="2008-03-21T11:02:55Z">March 21st, 2008 at 11:02 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>@PIXELGRAIN: Yes, it was without a doubt the right decision for me. I use Feedburner for my feeds, so I didn&#8217;t lose any subscribers in the transition, and I didn&#8217;t have any trouble getting my images in my RSS feeds the way I like them. WordPress has a bunch of plugin hooks, so you can do a lot of different things if you know your way around the code. As for the URLs, <a href="http://urbangiraffe.com/plugins/redirection/" rel="nofollow">there is a Redirection plugin that I use to make sure old links redirect to new stuff</a>.</p>
+<p>Here&#8217;s <a href="about/technical-web-information/index.html" rel="nofollow">some more information about the technical aspects of my website</a>. Maybe that will help answer some of your questions.</p>
+<p>My import script is really old now and could probably use some updating. It might be a good place to start, but don&#8217;t expect it to work without a hitch. If you do happen to update it, would you care to send it back so I can post it here?</p>
+<p>Good luck on the transition.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-575">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/2864beebf21db1c1e81cb9044febfa53?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='index.html' rel='external nofollow' class='url'>Joe Lencioni</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-575" rel="bookmark" title=""><abbr class="published updated" title="2008-03-21T11:09:34Z">March 21st, 2008 at 11:09 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>I forgot to mention: I just came across this <a href="http://speckyboy.com/2008/03/20/30-free-resources-for-photoblogging-and-image-galleries-wordpress/" rel="nofollow">list of resources for photoblogging and image galleries</a>.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-577">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/6c3841b9afcb4477898d4396a74024c1?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://www.kristarella.com' rel='external nofollow' class='url'>kristarella</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-577" rel="bookmark" title=""><abbr class="published updated" title="2008-11-04T10:10:55Z">November 4th, 2008 at 10:10 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Thank you! That script was great. Tried it using PP 1.7 and WP 2.6.3 and it worked very nicely. Inserted an extra bit of code so that the images show in posts, not just get attached:<br />
+<code>'post_content'		=&gt; '' . $body,</code></p>
+<p>Just what I needed!</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-578">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/6c3841b9afcb4477898d4396a74024c1?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://www.kristarella.com' rel='external nofollow' class='url'>kristarella</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-578" rel="bookmark" title=""><abbr class="published updated" title="2008-11-04T10:12:08Z">November 4th, 2008 at 10:12 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Oops, forgot to convert all that&#8230;</p>
+<p><code>'post_content'		=&gt; '&lt;img class="frame" src="http://www.kristarella.com/wp-content/uploads/' . $image . '" alt="" /&gt;&lt;br /&gt;' . $body,</code></p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-579">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=86' class='avatar avatar-86 photo avatar-default' height='86' width='86' />			<cite class="entry-title author"><a href='http://www.kristarella.com/2008/12/this-week-in-kristarella/' rel='external nofollow' class='url'>This week in kristarella — kristarella.com</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-579" rel="bookmark" title=""><abbr class="published updated" title="2008-12-08T19:14:55Z">December 8th, 2008 at 7:14 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>[...] to importing my photoblog from PixelPost to WordPress, the photos from before the import don&#8217;t have all of the metadata (in the database). [...]</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-580">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=86' class='avatar avatar-86 photo avatar-default' height='86' width='86' />			<cite class="entry-title author"><a href='http://gulfcoasttexas.us/blogs/gct/2009/01/25/moving-from-pixelpost-to-wordpress/' rel='external nofollow' class='url'>Moving from PixelPost to WordPress | Gulf Coast Texas Blog</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-580" rel="bookmark" title=""><abbr class="published updated" title="2009-01-25T12:40:50Z">January 25th, 2009 at 12:40 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>[...] along with the database, I took a harder look around and found an old utility from May of 2006 at Shifting Pixel. A commenter there reports as late as November of 2008 that she tried it and that it worked great [...]</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1712">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/e0f7b3c0fdd85c1f0a68f10b26980c52?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">San</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-1712" rel="bookmark" title=""><abbr class="published updated" title="2009-04-10T22:04:52Z">April 10th, 2009 at 10:04 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Hi</p>
+<p>Thanks for the script.  I am trying to move from pixelpost 1.6.1 to WP 2.7.1 and WP fails with &#8220;Cannot load importer.&#8221; error.  </p>
+<p>Can you please point me to where I can start looking to fix this?</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1736">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/e07fec5c37c6de2894f797ab44c2578e?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://photos.blainekendall.com' rel='external nofollow' class='url'>blaine kendall</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-1736" rel="bookmark" title=""><abbr class="published updated" title="2009-04-23T09:28:56Z">April 23rd, 2009 at 9:28 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Thanks for the script. It worked great from PixelPost 1.7 to WordPress 2.7.1. I followed Kristarella&#8217;s tip and added the image src in 2 spots in the script. thanks for this&#8230;you&#8217;ve saved me a ton of SQL scripting.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1818">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/2bd145d1749b79a2ab628ce639400826?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://talkingtree.org/photoblog/' rel='external nofollow' class='url'>Nate</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-1818" rel="bookmark" title=""><abbr class="published updated" title="2009-07-03T23:01:39Z">July 3rd, 2009 at 11:01 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>How did you guys get it to work with Pixelpost 1.7? I can&#8217;t get the pixelpost2.php importer to initialize and I get the same error as San. I&#8217;ve been trying for 2 years to make a transition from Pixelpost to WordPress. Once I find a way out of this trap I am sticking with wordpress permanently. Help, Please!? <img src='http://shiftingpixel.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />  Thanks. I may even be willing to fork over some funds for the help!</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1841">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/cace4cbf5dfb42c022e50a11ab9777b3?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Christine</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-1841" rel="bookmark" title=""><abbr class="published updated" title="2009-07-22T19:15:10Z">July 22nd, 2009 at 7:15 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Hi!<br />
+Wanted to add my support for anyone who could upgrade this script!  I tried importing from PixelPost 1.7.1 to WordPress 2.8.2 this evening.</p>
+<p>The script sorta works now&#8230; I can import the posts themselves but no comments.  And even with Krista&#8217;s added coded, I can not get any images to attach or import into the blog.  </p>
+<p>I would really love to use WordPress because for what I want to do, it would better suit my needs but I don&#8217;t want to lose all of my comments or have to manually add all of my photos.</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1842">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/cace4cbf5dfb42c022e50a11ab9777b3?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Christine</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-1842" rel="bookmark" title=""><abbr class="published updated" title="2009-07-22T19:29:55Z">July 22nd, 2009 at 7:29 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Quick update&#8230; importing the pictures DID work.  I didn&#8217;t realize I had to actually update load the images themselves to the server in addition to running the script.  (DOH!)</p>
+<p>Still no comments, though.  Can anyone help me import the comments, too?</p>
+<p>Thanks!</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1846">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/cace4cbf5dfb42c022e50a11ab9777b3?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author">Christine</cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-1846" rel="bookmark" title=""><abbr class="published updated" title="2009-07-23T16:03:02Z">July 23rd, 2009 at 4:03 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Well, the script works after all!  </p>
+<p>I was ready to handcode the comments into the database when I decided to delete the database and start fresh. After I deleted the database, created it again, and installed WordPress, I re-imported the Pixelpost using the script and for some odd reason, it worked this time!  The comments and everything. Was it because I started with a fresh clean installed WordPress?</p>
+<p>Again, the while it imported the categories, it didn&#8217;t keep the post assignment to them. A minor thing compared to the daunting task of trying hand import the comments directly into the database itself! </p>
+<p>YAY!</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1938">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://0.gravatar.com/avatar/005451a70c1bfef36c1d68a768db4a3e?s=86&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://www.dotcompalsphotoBlog.com' rel='external nofollow' class='url'>Prashanth Randadath Nair</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-1938" rel="bookmark" title=""><abbr class="published updated" title="2009-10-21T06:29:56Z">October 21st, 2009 at 6:29 am</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>I am using Pixelpost version: 1.7.1  for my blog now. I want to migrate to the latest version of WordPress and use wordpress as a photoblog.<br />
+I can pay you  of any of the friends here can do it for me. Please contact me at dotcompals (at) gmail.com or add me to MSN : dotcompals (at) msn.com / Yahoo: dotcompals (at) yahoo.com</p>
+					</div>
+	</li>
+		</li>
+	<li class="hentry clearfix" id="comment-1981">
+		<div class="metaGutter">
+			<p>
+			<img alt='' src='http://1.gravatar.com/avatar/1bd5181854136239bb7bee193cbcea44?s=86&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D86&amp;r=R' class='avatar avatar-86 photo' height='86' width='86' />			<cite class="entry-title author"><a href='http://blog.perfectedperspectives.com/' rel='external nofollow' class='url'>Andrew Rodgers</a></cite> said
+						<br />
+	
+			<small class="commentMetadata"><a href="index.html?p=373#comment-1981" rel="bookmark" title=""><abbr class="published updated" title="2009-12-05T22:33:27Z">December 5th, 2009 at 10:33 pm</abbr></a> </small>
+			</p>
+		</div>
+	
+		<div class="postBody entry-content">
+			<p>Hey Joe,<br />
+I took the liberty to enhance your script a little, and do a little debugging on newer versions of WP and PP, I hope you don&#8217;t mind, I gave you credit for the original script. I appreciate the work you did! You can view the post here: <a href="http://blog.perfectedperspectives.com/2009/pixelpost-to-wordpress-migration/" rel="nofollow">http://blog.perfectedperspectives.com/2009/pixelpost-to-wordpress-migration/</a></p>
+<p>Thanks,<br />
+Andrew Rodgers<br />
+<a href="http://perfectedperspectives.com" rel="nofollow">http://perfectedperspectives.com</a> | <a href="http://twitter.com/acedrew" rel="nofollow">http://twitter.com/acedrew</a> | <a href="http://fb.perfectedperspectives.com" rel="nofollow">http://fb.perfectedperspectives.com</a></p>
+					</div>
+	</li>
+		</li>
+ </ol>
+ 
+ <div class="metaGutter">&nbsp;</div>
+ <div class="postBody navigation">
+   
+ </div>
+
+
+</div> <!-- #comments -->
+
+<div class="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-1559564011388652";
+/* Comments leaderboard */
+google_ad_slot = "0757537148";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+</div> <!-- #commentsWrapper -->
+<hr /><div class="clearer">&nbsp;</div>	
+<div id="footerWrapper">
+<div id="footer">	<div id="leftSidebar">
+	    	  
+    	        <h2>Must See</h2>
+        <div class="smallblocks clearfix"><span class="photo"><a href="index.html?p=418" title="Unicycle 4"><img src="slir/w86-h86-c1:1/wp-content/uploads/2008/05/unicycle-4.jpg" alt="Unicycle 4" title="Unicycle 4" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="index.html?p=195" title="two eight nine"><img src="slir/w86-h86-c1:1/wp-content/uploads/2008/05/two-eight-nine.jpg" alt="two eight nine" title="two eight nine" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="index.html?p=765" title="Climbing to the Top"><img src="slir/w86-h86-c1:1/wp-content/uploads/2007/08/climbing-to-the-top.jpg" alt="Climbing to the Top" title="Climbing to the Top" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="index.html?p=388" title="Train car"><img src="slir/w86-h86-c1:1/wp-content/uploads/2008/05/train-car.jpg" alt="Train car" title="Train car" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="index.html?p=101" title="Corporate America: Kentucky Fried Chicken"><img src="slir/w86-h86-c1:1/wp-content/uploads/2008/05/corporate-america-kentucky-fried-chicken.jpg" alt="Corporate America: Kentucky Fried Chicken" title="Corporate America: Kentucky Fried Chicken" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="index.html?p=1122" title="Rainbow"><img src="slir/w86-h86-c1:1/wp-content/uploads/2009/03/rainbow.jpg" alt="Rainbow" title="Rainbow" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="index.html?p=686" title="Cappuccino"><img src="slir/w86-h86-c1:1/wp-content/uploads/2007/04/cappuccino1.jpg" alt="Cappuccino" title="Cappuccino" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="index.html?p=492" title="Andrew Winter"><img src="slir/w86-h86-c1:1/wp-content/uploads/2009/03/andrew-winter.jpg" alt="Andrew Winter" title="Andrew Winter" width="86" height="86" /></a></span>
+
+<span class="photo"><a href="index.html?p=343" title="untitled"><img src="slir/w86-h86-c1:1/wp-content/uploads/2007/08/untitled.jpg" alt="untitled" title="untitled" width="86" height="86" /></a></span>
+</div><!-- Random Posts took 33.448 ms -->        <p class="clearfix"><small><a href="category/photos/portfolio.1">Browse all &ldquo;Must see&rdquo; photos</a></small></p>
+				
+    </div>
+
+<div id="rightSidebar">
+     		<div id="popularPosts">
+            <h2>Latest Photos</h2>
+			<div class="smallblocks clearfix">
+            <span class="photo"><a href="index.html?p=1807" title="Air Ship Rail"><img src="slir/w86-h86-c1:1/wp-content/uploads/2011/04/IMG_3536.jpg" alt="Air Ship Rail" title="Air Ship Rail" width="86" height="86" /></a></span><span class="photo"><a href="index.html?p=1803" title="Vines reaching out"><img src="slir/w86-h86-c1:1/wp-content/uploads/2011/04/IMG_3534.jpg" alt="Vines reaching out" title="Vines reaching out" width="86" height="86" /></a></span><span class="photo"><a href="index.html?p=1799" title="Buildingtops"><img src="slir/w86-h86-c1:1/wp-content/uploads/2011/04/IMG_3530.jpg" alt="Buildingtops" title="Buildingtops" width="86" height="86" /></a></span><span class="photo"><a href="index.html?p=1794" title="505"><img src="slir/w86-h86-c1:1/wp-content/uploads/2011/04/IMG_3526.jpg" alt="505" title="505" width="86" height="86" /></a></span><span class="photo"><a href="index.html?p=1790" title="Intersecting parking spots"><img src="slir/w86-h86-c1:1/wp-content/uploads/2011/04/IMG_3521.jpg" alt="Intersecting parking spots" title="Intersecting parking spots" width="86" height="86" /></a></span><span class="photo"><a href="index.html?p=1784" title="Everywhere"><img src="slir/w86-h86-c1:1/wp-content/uploads/2011/04/IMG_3501.jpg" alt="Everywhere" title="Everywhere" width="86" height="86" /></a></span><div class="small"><span class="photo"><a href="index.html?p=1777" title="Welcome"><img src="slir/w38-h38-c1:1/wp-content/uploads/2011/04/IMG_3499.jpg" alt="Welcome" title="Welcome" width="38" height="38" /></a></span><span class="photo"><a href="index.html?p=1765" title="Hubcap clocks"><img src="slir/w38-h38-c1:1/wp-content/uploads/2010/09/1283633957305.jpg" alt="Hubcap clocks" title="Hubcap clocks" width="38" height="38" /></a></span><span class="photo"><a href="index.html?p=1763" title="4-H Building"><img src="slir/w38-h38-c1:1/wp-content/uploads/2010/09/1283625129908.jpg" alt="4-H Building" title="4-H Building" width="38" height="38" /></a></span><span class="photo"><a href="index.html?p=1756" title="Christ Chapel at Gustavus"><img src="slir/w38-h38-c1:1/wp-content/uploads/2010/09/4910525011_081590f1f6_o.jpg" alt="Christ Chapel at Gustavus" title="Christ Chapel at Gustavus" width="38" height="38" /></a></span><span class="photo"><a href="index.html?p=1753" title="Tomatoes and Peppers"><img src="slir/w38-h38-c1:1/wp-content/uploads/2010/09/4915226332_a849178930_o.jpg" alt="Tomatoes and Peppers" title="Tomatoes and Peppers" width="38" height="38" /></a></span><span class="photo"><a href="index.html?p=1748" title="Coca-Cola Mural"><img src="slir/w38-h38-c1:1/wp-content/uploads/2010/09/4928545472_7139133c14_o.jpg" alt="Coca-Cola Mural" title="Coca-Cola Mural" width="38" height="38" /></a></span><span class="photo"><a href="index.html?p=1744" title="Saint Peter Water Tower"><img src="slir/w38-h38-c1:1/wp-content/uploads/2010/09/4950146640_4fa26d553c_o.jpg" alt="Saint Peter Water Tower" title="Saint Peter Water Tower" width="38" height="38" /></a></span><span class="photo"><a href="index.html?p=1740" title="Canned Grape Jelly"><img src="slir/w38-h38-c1:1/wp-content/uploads/2010/09/4918682700_a0363a2bcb_o.jpg" alt="Canned Grape Jelly" title="Canned Grape Jelly" width="38" height="38" /></a></span><span class="photo"><a href="index.html?p=1731" title="Canning Grape Jelly"><img src="slir/w38-h38-c1:1/wp-content/uploads/2010/09/4918079385_e278c095f4_o.jpg" alt="Canning Grape Jelly" title="Canning Grape Jelly" width="38" height="38" /></a></span><span class="photo"><a href="index.html?p=1662" title="starburst"><img src="slir/w38-h38-c1:1/wp-content/uploads/2010/01/starburst.jpg" alt="starburst" title="starburst" width="38" height="38" /></a></span><span class="photo"><a href="index.html?p=1665" title="luna-moth-matrix"><img src="slir/w38-h38-c1:1/wp-content/uploads/2010/01/luna-moth-matrix.jpg" alt="luna-moth-matrix" title="luna-moth-matrix" width="38" height="38" /></a></span><span class="photo"><a href="index.html?p=1675" title="gustavus-adolphus-2"><img src="slir/w38-h38-c1:1/wp-content/uploads/2010/01/gustavus-adolphus-2.jpg" alt="gustavus-adolphus-2" title="gustavus-adolphus-2" width="38" height="38" /></a></span>			</div>
+			</div>
+        </div>
+    
+        <div id="latestPosts">
+            <h2>Latest Articles</h2>
+            <ol>
+            				<li><a href="index.html?p=1063" rel="bookmark" title="Permanent Link to Greased Lightbox v0.18">Greased Lightbox v0.18</a></li>
+								<li><a href="index.html?p=1039" rel="bookmark" title="Permanent Link to L.A. Trip Winners">L.A. Trip Winners</a></li>
+								<li><a href="index.html?p=1014" rel="bookmark" title="Permanent Link to Win a Trip to a Spike Lee Movie Premiere in L.A.">Win a Trip to a Spike Lee Movie Premiere in L.A.</a></li>
+								<li><a href="index.html?p=997" rel="bookmark" title="Permanent Link to Three Years">Three Years</a></li>
+							</ol>
+			
+						<h2>Popular</h2>
+			<ul><li><a href="index.html?p=845" rel="bookmark" title="January 28, 2008">Review: Light: Science and Magic, Third Edition</a></li>
+
+<li><a href="index.html?p=603" rel="bookmark" title="January 25, 2007">Tongue</a></li>
+
+<li><a href="index.html?p=647" rel="bookmark" title="February 17, 2007">Best Chocolate Cake Ever</a></li>
+
+<li><a href="index.html?p=768" rel="bookmark" title="August 11, 2007">Yellow Ants, Acanthomyops</a></li>
+</ul><!-- Random Posts took 7.059 ms -->			        </div>
+    	<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer"></div>
+	<div class="clearer">&nbsp;</div>	
+</div>
+</div>
+
+<hr />
+
+<div id="copyrightWrapper">
+<div id="copyright">
+    <p id="copyrightNotice"><small>Copyright &copy; 2005&ndash;11 <a href="mailto:joe@shiftingpixel.com">Joe Lencioni</a></small></p>
+
+	<div id="creativeCommons">
+		<!-- Creative Commons License -->
+		<p><small>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/">Creative Commons Attribution-NonCommercial-ShareAlike 2.5&nbsp;License</a>. <a href="attribution-requirements/index.html">Attribution requirements for my work</a>.</small></p>
+		<!-- /Creative Commons License -->
+	</div>
+    
+    <p id="footerLogo"><a href="index.html" title="Return to the homepage"><img src="http://shiftingpixel.com/wp-content/themes/shifting2/images/camera-logo-small.png" width="70" height="53" alt="Shifting Pixel logo" /></a></p>
+    
+    <div class="noscreen">
+        <address id="hcard-Joe-Lencioni" class="vcard">
+        <a class="url fn" href="index.html">Joe Lencioni</a>
+        <span class="org">Shifting Pixel</span>
+        <a class="email" href="mailto:joe@shiftingpixel.com">joe@shiftingpixel.com</a>
+        <span class="adr">
+            <span class="locality">Saint Peter</span>, <span class="region">Minnesota</span>, <span class="postal-code">56082</span>
+            <span class="country-name">United States of America</span>
+        </span>
+        </address>
+    </div>
+	
+	<!--
+		
+	<rdf:RDF xmlns="http://web.resource.org/cc/"
+		xmlns:dc="http://purl.org/dc/elements/1.1/"
+		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<Work rdf:about="">
+	   <dc:creator><Agent>
+		  <dc:title>Joe Lencioni</dc:title>
+	   </Agent></dc:creator>
+	   <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+	   <dc:source rdf:resource="http://shiftingpixel.com"/>
+	   <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/" />
+	</Work>
+	
+	<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/">
+	   <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+	   <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+	   <requires rdf:resource="http://web.resource.org/cc/Notice" />
+	   <requires rdf:resource="http://web.resource.org/cc/Attribution" />
+	   <prohibits rdf:resource="http://web.resource.org/cc/CommercialUse" />
+	   <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+	   <requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+	</License>
+	
+	</rdf:RDF>
+		
+	-->
+
+	<!-- 124 queries. 0.278 seconds. -->
+	
+	<div class="clearer"></div>
+</div>
+</div><script type='text/javascript' src='http://api.flattr.com/js/0.6/load.js?mode=auto&#038;ver=0.6'></script>
+</body>
+</html>
