@@ -1,0 +1,35 @@
+#header {
+	margin-bottom: 0;
+}
+h1#logo a { 
+	background: transparent url(images/logo-IE6.gif) no-repeat;
+}
+p#associationWith a {
+	background: transparent url(images/9rules-leaf-dark-IE6.png) no-repeat;
+}
+#upgradeYourBrowser {
+	color: #fff;
+	width: 610px;
+	position: absolute;
+	top: 6em;
+	left: 350px;
+}
+#upgradeYourBrowser a {
+	color: #FFCC00;
+	text-decoration: underline;
+}
+#upgradeYourBrowser a:hover {
+	background: #000;
+}
+#browsingNavigation {
+	top: 215px;
+}
+.postBody {
+	float: none;
+}
+#submitComment {
+	margin-left: 280px;
+}
+#footer {
+	background-position: 305px 0%;
+}
